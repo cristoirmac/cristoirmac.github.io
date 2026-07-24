@@ -15,12 +15,37 @@ export default function AboutPage() {
     <Container className="py-16 sm:py-20">
       <PageHeader eyebrow="About" title="Chris McFadden" />
 
+      {/* Portrait — shown at the top on mobile; on desktop it lives in the sidebar beside the story */}
+      <div className="mt-10 lg:hidden">
+        <img
+          src="/images/chris-mcfadden-960.jpg"
+          srcSet="/images/chris-mcfadden-480.jpg 480w, /images/chris-mcfadden-960.jpg 960w"
+          sizes="192px"
+          width={960}
+          height={960}
+          alt="Chris McFadden"
+          className="block h-auto w-48 rounded-xl border border-line"
+        />
+      </div>
+
       <div className="mt-14 grid gap-x-14 gap-y-10 lg:grid-cols-[1fr_280px]">
         <div className="max-w-prose">
           <Markdown>{bio.body}</Markdown>
         </div>
 
         <aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">
+          <div className="hidden overflow-hidden rounded-xl border border-line bg-surface lg:block">
+            <img
+              src="/images/chris-mcfadden-960.jpg"
+              srcSet="/images/chris-mcfadden-480.jpg 480w, /images/chris-mcfadden-960.jpg 960w"
+              sizes="(min-width: 1024px) 280px, 100vw"
+              width={960}
+              height={960}
+              alt="Chris McFadden"
+              className="block h-auto w-full"
+            />
+          </div>
+
           <div className="rounded-xl border border-line bg-surface p-6">
             <Eyebrow>At a glance</Eyebrow>
             <ul className="mt-4 space-y-3">
