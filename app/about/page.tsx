@@ -51,18 +51,14 @@ export default function AboutPage() {
               <ul className="mt-4 space-y-3">
                 {profile.recognition.map((r) => (
                   <li key={r.text} className="text-sm leading-relaxed text-ink-muted">
-                    {'href' in r && r.href ? (
-                      <a
-                        href={r.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-ink link-underline"
-                      >
-                        {r.text}
-                      </a>
-                    ) : (
-                      <span className="text-ink">{r.text}</span>
-                    )}
+                    <a
+                      href={r.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-ink link-underline"
+                    >
+                      {r.text}
+                    </a>
                   </li>
                 ))}
               </ul>
