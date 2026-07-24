@@ -27,6 +27,7 @@ export const profile = {
   contact: {
     email: 'chris.c.mcf@gmail.com',
     linkedin: 'https://www.linkedin.com/in/chrismcfadden/',
+    github: 'https://github.com/cristoirmac',
     // No phone number, no home address (policy).
   },
 

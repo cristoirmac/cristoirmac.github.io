@@ -38,6 +38,11 @@ export default function SiteFooter() {
               </a>
             </li>
             <li>
+              <a href={profile.contact.github} target="_blank" rel="noopener noreferrer" className="text-sm text-ink-soft link-underline">
+                GitHub
+              </a>
+            </li>
+            <li>
               <a href={`mailto:${profile.contact.email}`} className="text-sm text-ink-soft link-underline">
                 Email
               </a>
