@@ -33,7 +33,7 @@ export default function ExperiencePage() {
       <PageHeader
         eyebrow="Experience"
         title="A career built on scale, transformation, and applied AI."
-        dek="An executive-level narrative rather than a bullet-by-bullet résumé. Business context, mandate, scale, the changes led, and selected outcomes for each chapter."
+        dek="Business context, mandate, scale, the changes led, and selected outcomes for each chapter."
       />
 
       <div className="mt-16 space-y-20">

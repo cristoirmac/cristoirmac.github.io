@@ -24,17 +24,17 @@ export default function WritingPage() {
       <PageHeader
         eyebrow="Writing & Media"
         title="Writing, talks, and interviews."
-        dek="A decade of writing that shows one idea maturing — from cloud and DevOps to AI-enabled delivery. External links open at the original source."
+        dek="Selected writing, talks, and interviews on cloud platforms, engineering leadership, product delivery, production operations, customer trust, and applied AI. External links open at the original source."
       />
 
       <div className="mt-8 max-w-prose rounded-xl border border-line bg-surface p-5">
         <p className="text-sm leading-relaxed text-ink-muted">
-          Read in order, the selected pieces below trace the arc. For the through-line, see my{' '}
+          A selection spanning cloud and DevOps through applied AI. For how I connect them, see my{' '}
           <ArrowLink href="/point-of-view/">Point of View</ArrowLink>.
         </p>
       </div>
 
-      {/* Selected (curated 8) */}
+      {/* Selected (curated) */}
       <section className="mt-10">
         <Eyebrow>Selected writing</Eyebrow>
         <div className="mt-2">

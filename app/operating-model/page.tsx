@@ -5,7 +5,7 @@ import { operatingModel } from '@/content/operating-model';
 export const metadata: Metadata = {
   title: 'Leadership & Operating Model',
   description:
-    'How Chris McFadden leads and creates value as a CTO: running technology as a business system, making constraints visible early, production ownership and reliability, clear team ownership, applied AI as measurable leverage, and managing R&D, platforms, and acquisitions as investments.',
+    'How Chris McFadden leads and creates value as a CTO: building leaders and organizations, partnering with Product and customers, owning production and reliability, managing R&D as an investment portfolio, and using platforms and applied AI to amplify strong teams.',
 };
 
 export default function OperatingModelPage() {
@@ -24,9 +24,8 @@ export default function OperatingModelPage() {
         <div className="max-w-prose">
           <p className="font-serif text-2xl leading-relaxed text-ink-soft">{om.lede}</p>
           <p className="mt-5 text-sm text-ink-muted">
-            For the longer arc — how this thinking evolved from DevOps and cloud to AI-enabled
-            delivery — see my <ArrowLink href="/point-of-view/">Point of View</ArrowLink>. For the
-            practical layer, <ArrowLink href="/readme/">Working with me</ArrowLink>.
+            For the idea behind it, see my <ArrowLink href="/point-of-view/">Point of View</ArrowLink>.
+            For the practical layer, <ArrowLink href="/readme/">Working with me</ArrowLink>.
           </p>
         </div>
       </div>

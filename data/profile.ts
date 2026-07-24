@@ -1,5 +1,6 @@
 // Single source of truth for identity, positioning, contact, and public-safe facts.
 // The website is a PUBLIC surface and uses public / LinkedIn framing only.
+// Posture: a portfolio, not a job-search page. No target-role / mandate / availability copy.
 
 export const SITE_URL = 'https://chrismcfadden.com'; // change on domain confirmation
 
@@ -9,20 +10,20 @@ export const profile = {
   positioningLine:
     'Applied AI in products and engineering · Enterprise SaaS · PE-backed software · Platform & reliability',
 
-  location: 'Washington, DC area (Silver Spring, MD)',
+  location: 'Washington, DC area',
 
   // Home hero.
   headline: 'Building the technology organization for the next stage of B2B SaaS.',
   subhead:
-    'I build strong engineering organizations and lead them through platform modernization, applied AI, and cloud operations — improving customer trust, delivery, reliability, and operating leverage.',
+    'I build and lead global engineering organizations through platform modernization, product integration, cloud operations, and applied AI — developing strong leaders, partnering closely with Product and customers, and improving reliability, delivery, and economics.',
 
-  // One-paragraph intro (home). Grounded, specific; founder-led is used as evidence, not a category.
+  // One-paragraph intro (home "In brief").
   intro:
-    'I work with growing B2B SaaS companies whose technology organization and operating model need to evolve for the next stage — without losing the speed, customer knowledge, and technical strengths that got them there. I have led two major technology and operating-model transformations: SparkPost’s move from founder-led, on-premises software to a high-scale cloud platform, and Quorum’s growth as a PE-backed SaaS business integrating acquired products, strengthening its operating model, and shipping applied AI. Across more than 20 years I have built globally distributed engineering teams, led a platform processing more than a billion messages a day, and guided technology through acquisition in public-company and PE-backed environments serving enterprise customers.',
+    'Across more than 20 years at Discovery, SparkPost, and Quorum, I have built global engineering organizations, operated cloud platforms at billion-message scale, integrated acquired products and teams, and applied AI in both customer workflows and engineering. The common thread is building organizations that turn customer needs into reliable products — without losing the strengths that made them successful.',
 
-  // Shorter invitation for the Home page; the fuller version lives on Contact.
+  // Home "Connect" invitation. Portfolio posture — comparing notes, not seeking a role.
   invitationShort:
-    'I am interested in CTO and senior engineering leadership roles involving platform modernization, operating-model change, acquisition integration, or applied AI — particularly in mature or late-growth B2B SaaS and PE-backed software. At this stage, I care more about fit and a clear mandate than title.',
+    'I write and speak about engineering leadership, product and R&D investment, cloud platforms, customer trust, acquisition integration, and applied AI. I enjoy comparing notes with founders, operators, investors, and Product and technology leaders working through similar questions.',
 
   contact: {
     email: 'chris.c.mcf@gmail.com',
@@ -31,32 +32,25 @@ export const profile = {
     // No phone number, no home address (policy).
   },
 
-  resume: {
-    // Not hosted on the public site — available by email on request, so the tailored résumé
-    // stays out of a public download.
-    mailtoSubject: 'Résumé request',
-    label: 'Available on request',
-  },
-
-  // Three areas where Chris creates value. Reliability, security, and cost live inside these.
+  // Three areas where Chris creates value.
   valueAreas: [
     {
       title: 'Build organizations and leaders that scale',
-      body: 'I design engineering organizations around the capabilities the business needs, then recruit, develop, and retain the leaders and teams to deliver them — structure, role clarity, management depth, and the hard talent decisions when they are needed.',
+      body: 'I design engineering organizations around the capabilities the business needs, then recruit, develop, and retain the leaders and teams required to deliver them — with clear structure, role definition, management depth, and thoughtful performance management.',
     },
     {
-      title: 'Earn customer trust and partner across the business',
-      body: 'I work with Product, Sales, Customer Success, and executive peers — and directly with customers as an executive sponsor during strategic sales, escalations, incidents, and renewal risk. Trust comes from credible commitments and follow-through, not reassurance.',
+      title: 'Partner with Product and customers to create value',
+      body: 'I work with Product, Sales, Customer Success, executive peers, and customers to understand the real problem, shape the solution, test value through iteration, and make sound R&D investment choices.',
     },
     {
-      title: 'Run reliable, economically sound platforms',
-      body: 'I own production — reliability, incident response, postmortems, security, and observability — and treat cloud cost as an architectural and customer concern. Platform modernization and applied AI sit inside this system, improving customer value and operating leverage.',
+      title: 'Own production and technology economics',
+      body: 'I have deep experience in cloud operations, reliability, incidents, postmortems, security, and cloud-cost engineering. When technology affects customer trust, revenue, or retention, I take ownership.',
     },
   ],
 
-  // Contact-page statement — affirmative, no availability-desperation.
+  // Contact-page statement — affirmative, portfolio posture.
   contactStatement:
-    'I am interested in serious conversations about CTO and senior engineering leadership roles where the mandate involves meaningful platform modernization, engineering operating-model change, acquisition integration, or applied-AI work — mature or late-growth B2B SaaS, PE-backed transformation, or post-acquisition platform consolidation. At this stage I care more about fit and a clear mandate than about title.',
+    'I welcome thoughtful conversations about building technology organizations, developing strong leaders, product and R&D investment, cloud platforms, customer trust, acquisition integration, and applied AI. The best way to reach me is by email or LinkedIn.',
 
   education: [
     { school: 'The Johns Hopkins University', detail: 'M.S., Information Systems and Technology' },
@@ -84,6 +78,6 @@ export const seo = {
   siteName: 'Chris McFadden',
   title: 'Chris McFadden — CTO & Engineering Executive',
   description:
-    'Chris McFadden is a CTO and engineering executive who has led two major technology and operating-model transformations — cloud-native re-platforming at SparkPost, and PE-backed scaling and applied AI at Quorum.',
+    'Chris McFadden is a CTO and engineering executive who builds technology organizations and leaders, partners with Product and customers, owns production, and invests in platforms, cloud, and applied AI — proven at SparkPost and Quorum.',
   ogImagePath: '/og.png',
 } as const;

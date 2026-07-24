@@ -5,23 +5,12 @@ import { pointOfView } from '@/content/point-of-view';
 export const metadata: Metadata = {
   title: 'Point of View',
   description:
-    'How Chris McFadden builds leverage through people, teams, and technology — from DevOps and cloud to AI-enabled delivery — so the whole organization turns customer needs into reliable products.',
+    'Chris McFadden on how technology leadership is changing: as producing software gets cheaper, the harder work moves to understanding customers, choosing the right problem, validating quality, earning adoption, and operating responsibly.',
   alternates: { canonical: '/point-of-view/' },
 };
 
-function StageCard({ name, body }: { name: string; body: string }) {
-  return (
-    <div className="flex flex-col rounded-xl border border-line bg-surface p-6">
-      <h3 className="font-serif text-xl font-medium text-ink">{name}</h3>
-      <p className="mt-3 text-sm leading-relaxed text-ink-muted">{body}</p>
-    </div>
-  );
-}
-
 export default function PointOfViewPage() {
   const pov = pointOfView;
-  const today = pov.stages.filter((s) => s.group === 'today');
-  const mayLead = pov.stages.filter((s) => s.group === 'mayLead');
 
   return (
     <Container className="py-16 sm:py-20">
@@ -42,70 +31,19 @@ export default function PointOfViewPage() {
         </p>
       </section>
 
-      {/* Ladder of leverage */}
+      {/* Historical arc */}
       <section className="mt-16">
-        <Eyebrow>A ladder of leverage</Eyebrow>
-        <ol className="mt-6 space-y-4">
-          {pov.ladder.map((rung, i) => (
-            <li key={rung} className="flex gap-5 border-b border-line pb-4">
-              <span className="font-serif text-2xl font-medium text-line" aria-hidden>
-                {i + 1}
-              </span>
-              <p className="max-w-prose pt-1 text-lg leading-relaxed text-ink-soft">{rung}</p>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      {/* Maturity model — grouped by what is real today vs. where it may lead */}
-      <section className="mt-16">
-        <Eyebrow>Crawl · Walk · Run · Fly</Eyebrow>
-        <p className="mt-4 max-w-prose text-ink-muted">
-          The story is not simply more automation. It is how much of the path from idea to production a
-          well-supported organization can own.
-        </p>
-
-        <h3 className="mt-8 font-sans text-sm font-semibold uppercase tracking-label text-ink">
-          In practice today
-        </h3>
-        <div className="mt-4 grid gap-4 sm:grid-cols-3">
-          {today.map((s) => (
-            <StageCard key={s.name} name={s.name} body={s.body} />
-          ))}
-        </div>
-
-        <h3 className="mt-10 font-sans text-sm font-semibold uppercase tracking-label text-ink">
-          Where this may lead
-        </h3>
-        <div className="mt-4 grid gap-4 sm:grid-cols-3">
-          {mayLead.map((s) => (
-            <StageCard key={s.name} name={s.name} body={s.body} />
-          ))}
-        </div>
-
-        <p className="mt-8 max-w-prose text-[1.05rem] leading-relaxed text-ink-soft">
-          {pov.todayStatement}
-        </p>
-      </section>
-
-      {/* Timeline */}
-      <section className="mt-20 border-t border-line pt-12">
-        <Eyebrow>One idea, maturing — 2016 to 2026</Eyebrow>
-        <div className="mt-8 space-y-10">
-          {pov.timeline.map((t) => (
-            <article key={t.era} className="grid gap-x-10 gap-y-3 md:grid-cols-[220px_1fr]">
+        <Eyebrow>How the work has shifted</Eyebrow>
+        <div className="mt-8 space-y-8">
+          {pov.arc.map((step) => (
+            <article key={step.era} className="grid gap-x-10 gap-y-3 md:grid-cols-[220px_1fr]">
               <div className="md:sticky md:top-24 md:self-start">
-                <h3 className="font-serif text-lg font-medium text-ink">{t.era}</h3>
+                <h3 className="font-serif text-lg font-medium text-ink">{step.era}</h3>
               </div>
               <div className="max-w-prose">
-                <p className="text-[0.98rem] leading-relaxed text-ink-soft">
-                  <span className="font-semibold text-ink">The focus:</span> {t.focus}
-                </p>
-                <p className="mt-2 text-[0.98rem] leading-relaxed text-ink-muted">
-                  <span className="font-semibold text-ink">The move:</span> {t.move}
-                </p>
-                <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
-                  {t.writing.map((w) => (
+                <p className="text-[1.02rem] leading-relaxed text-ink-soft">{step.body}</p>
+                <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
+                  {step.writing.map((w) => (
                     <li key={w.url}>
                       <a
                         href={w.url}

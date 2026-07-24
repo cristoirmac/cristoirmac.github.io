@@ -18,7 +18,7 @@ export default function TransformationsPage() {
       <PageHeader
         eyebrow="Transformation stories"
         title="Case studies in scale, platform change, and applied AI."
-        dek="Each study follows the same structure — context, challenge, my role, approach, decisions and tradeoffs, outcomes, and what I learned — and links to related writing. Where a public metric is not available, sections stay qualitative rather than inventing one."
+        dek="Selected examples of technology, organizational, product, and customer change across Discovery, SparkPost, and Quorum."
       />
 
       <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -47,18 +47,6 @@ export default function AboutPage() {
           </div>
 
           <div className="rounded-xl border border-line bg-surface p-6">
-            <Eyebrow>At a glance</Eyebrow>
-            <ul className="mt-4 space-y-3">
-              {bio.facts.map((f) => (
-                <li key={f} className="flex gap-3 text-sm leading-relaxed text-ink-muted">
-                  <span aria-hidden className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-accent" />
-                  <span>{f}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="rounded-xl border border-line bg-surface p-6">
             <Eyebrow>Education</Eyebrow>
             <ul className="mt-4 space-y-3">
               {profile.education.map((e) => (
