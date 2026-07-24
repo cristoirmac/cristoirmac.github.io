@@ -72,6 +72,10 @@ export const profile = {
       text: 'Inducted into the George Mason University Computer Science Dean’s Academy of Excellence (2026)',
       href: 'https://cs.gmu.edu/news/2026-04/alumnus-chris-mcfadden-bs-96-inducted-deans-academy-excellence',
     },
+    {
+      text: 'External Advisory Board Member, George Mason University Computer Science Department (2021–present)',
+      href: 'https://cs.gmu.edu/connections/advisory-board',
+    },
   ],
 } as const;
 
