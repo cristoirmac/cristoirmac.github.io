@@ -1,26 +1,28 @@
-// Point of View page — the intellectual through-line across a decade of public writing.
-// Do not present "Fly" as achieved. No AWS attribution for the stages
+// Point of View page — how strong teams turn technology into business leverage.
+// People-first framing. Do not present "Fly" as achieved. No AWS attribution for the stages
 // (descriptive Crawl/Walk/Run/Fly, not an attributed "levels" scheme).
 
 export const pointOfView = {
+  title: 'Building leverage through people, teams, and technology.',
+
   thesis:
-    'Across DevOps, cloud, SaaS, platform engineering, and now AI-enabled delivery systems, one question keeps recurring in my work: how do we increase organizational leverage and move the limiting constraint upward? The technologies have changed far more than the underlying idea.',
+    'Across cloud, SaaS, platform modernization, and applied AI, the pattern in my work has been consistent: build strong leaders and teams, give them clear ownership, connect them closely to customers and business priorities, and use technology to increase what the whole organization can accomplish.',
 
   plainOpening:
-    'Put plainly: the hardest limit on most engineering organizations is not how fast they write code. It is how quickly the whole business can turn an idea into something customers actually use and trust. Most of my career has been about moving that limit — first by making individual engineers and teams more effective, then by improving how the whole organization builds, and now by using AI so that software helps build and operate software.',
+    'The goal is not simply to help Engineering produce more software. It is to help Product, Engineering, Sales, Customer Success, and the rest of the business turn customer needs into reliable products more quickly — and to build an organization where good decisions do not depend on the CTO being in every room.',
 
-  // Keep verbatim — the recursion is the point.
+  // Keep verbatim — a memorable way to describe the current frontier.
   recursivePhrase: 'I build an organization that builds the software that builds the software.',
   recursiveGloss:
-    'Increasingly, that means teams create not only customer-facing software but also the tools, context, evaluations, guardrails, and agents used to build and operate it — while people stay responsible for intent, judgment, and outcomes.',
+    'Increasingly, strong teams create not only customer-facing software but also the tools, context, evaluations, guardrails, and agents that help build and operate it — while people stay responsible for intent, judgment, customer context, and outcomes.',
 
-  // The ladder of leverage.
+  // The ladder of leverage — each rung is about what the organization can do, not just Engineering.
   ladder: [
-    'Improve the productivity of an individual engineer.',
-    'Build teams that deliver effectively.',
-    'Build an organization that reliably builds software.',
-    'Build software that improves how the organization builds software.',
-    'Move the limiting constraint beyond engineering capacity — toward customer insight, validation, adoption, and willingness to pay.',
+    'Help an individual engineer do their best work.',
+    'Build teams that deliver effectively together.',
+    'Build an organization that reliably turns ideas into working software.',
+    'Build software and tooling that help the organization build and operate software.',
+    'Move the limit beyond engineering capacity — toward customer insight, validation, and adoption.',
   ],
 
   // Descriptive stages, grouped by what is real today vs. where it may lead.
@@ -28,22 +30,22 @@ export const pointOfView = {
     {
       name: 'Crawl',
       group: 'today' as const,
-      body: 'AI assists discrete individual tasks. The constraint is individual proficiency.',
+      body: 'Individuals learn to use AI effectively in their own work.',
     },
     {
       name: 'Walk',
       group: 'today' as const,
-      body: 'AI becomes a default part of team delivery. The constraint is workflow and adoption.',
+      body: 'Teams incorporate AI into their normal delivery.',
     },
     {
       name: 'Run',
       group: 'today' as const,
-      body: 'AI is embedded in the engineering operating system through reusable context, skills, guardrails, evaluations, telemetry, and workflows.',
+      body: 'Shared tools, context, standards, and evaluation make the gains repeatable across the organization.',
     },
     {
       name: 'Fly',
       group: 'mayLead' as const,
-      body: 'Governed agents take responsibility for increasingly large units of execution, with durable context, validation, escalation paths, and human oversight. This is a direction, not a claim that engineering capacity has ceased to be a constraint.',
+      body: 'Governed agents take on larger units of execution, while people retain responsibility for intent, judgment, customer context, and outcomes. A direction, not a claim that we are there.',
     },
   ],
 
@@ -55,8 +57,8 @@ export const pointOfView = {
   timeline: [
     {
       era: '2016–2018 · SparkPost',
-      constraint: 'Infrastructure toil, deploy/release process, and team boundaries.',
-      move: 'Get engineers off undifferentiated toil; make teams own production end to end.',
+      focus: 'Getting engineers off undifferentiated toil and giving teams end-to-end ownership.',
+      move: 'Move to the cloud; adopt DevOps and SRE; align teams to services they own.',
       writing: [
         { title: 'Why Choose AWS Over a Data Center', year: '2016', url: 'https://www.linkedin.com/pulse/why-sparkpost-chose-aws-over-data-center-chris-mcfadden/' },
         { title: 'Our DevOps Journey @SparkPost Engineering', year: '2017', url: 'https://www.linkedin.com/pulse/our-devops-journey-sparkpost-engineering-chris-mcfadden/' },
@@ -64,15 +66,15 @@ export const pointOfView = {
     },
     {
       era: '2024 · Quorum',
-      constraint: 'The operating model itself — flow, work-in-progress, finishing.',
-      move: 'Make the system the unit of leverage; outcomes over ceremony.',
+      focus: 'Making the operating model — flow, work-in-progress, finishing — the unit of leverage.',
+      move: 'Lightweight flow over ceremony; outcomes over story points.',
       writing: [
         { title: 'Quorum’s Lightweight Kanplan Development Methodology', year: '2024', url: 'https://www.linkedin.com/pulse/quorums-lightweight-kanplan-development-methodology-chris-mcfadden-3y16e/' },
       ],
     },
     {
       era: '2025 · AI becomes part of the default engineering workflow',
-      constraint: 'Context, judgment, and validation increasingly matter more than producing code.',
+      focus: 'Shifting where people spend their time — from producing code toward context, thinking, and judgment.',
       move: '“Your value is shifting from typing to thinking.”',
       writing: [
         { title: 'AI-First Engineering at Quorum', year: '2025', url: 'https://www.linkedin.com/pulse/ai-first-engineering-quorum-chris-mcfadden-d1oaf/' },
@@ -80,8 +82,8 @@ export const pointOfView = {
     },
     {
       era: '2026 · AI-enabled delivery systems',
-      constraint: 'Understanding, context, judgment, and customer reality.',
-      move: 'Software helps build software; judgment becomes the scarce resource.',
+      focus: 'Understanding, context, judgment, and customer reality as the scarce, human parts of the work.',
+      move: 'Software helps build software; people own intent, judgment, and outcomes.',
       writing: [
         { title: 'Leaving the Cave: Building Software in an Age of Abundance', year: '2026', url: 'https://www.linkedin.com/pulse/leaving-cave-building-software-age-abundance-chris-mcfadden-iacwe' },
         { title: 'Claude Code Is the Most Important Engineering Management Tool Since Jira', year: '2026', url: 'https://www.linkedin.com/pulse/claude-code-most-important-engineering-management-tool-chris-mcfadden-sbwle' },
@@ -92,5 +94,5 @@ export const pointOfView = {
   ],
 
   closing:
-    'The consistent pattern is not a methodology or a trend. It is this: understand the system, make reality visible, clarify decisions and ownership, build strong leaders and teams, improve production feedback, apply technology and AI where they create real leverage, and leave the organization stronger and less dependent on any one person.',
+    'The consistent pattern is people first: build strong leaders and teams, give them clear ownership and customer context, make priorities and tradeoffs explicit, and use technology and AI to amplify what they can do — leaving the organization stronger and less dependent on any one person.',
 } as const;

@@ -5,7 +5,7 @@ import { pointOfView } from '@/content/point-of-view';
 export const metadata: Metadata = {
   title: 'Point of View',
   description:
-    'One idea, maturing over a decade of Chris McFadden’s public writing: increasing organizational leverage and moving the limiting constraint upward — from DevOps and cloud to AI-enabled delivery.',
+    'How Chris McFadden builds leverage through people, teams, and technology — from DevOps and cloud to AI-enabled delivery — so the whole organization turns customer needs into reliable products.',
   alternates: { canonical: '/point-of-view/' },
 };
 
@@ -25,7 +25,7 @@ export default function PointOfViewPage() {
 
   return (
     <Container className="py-16 sm:py-20">
-      <PageHeader eyebrow="Point of View" title="Moving the constraint upward." dek={pov.thesis} />
+      <PageHeader eyebrow="Point of View" title={pov.title} dek={pov.thesis} />
 
       {/* Plain-English opening */}
       <p className="mt-10 max-w-prose text-lg leading-relaxed text-ink-soft">{pov.plainOpening}</p>
@@ -57,12 +57,12 @@ export default function PointOfViewPage() {
         </ol>
       </section>
 
-      {/* Maturity model — grouped by what's real today vs. where it may lead */}
+      {/* Maturity model — grouped by what is real today vs. where it may lead */}
       <section className="mt-16">
         <Eyebrow>Crawl · Walk · Run · Fly</Eyebrow>
         <p className="mt-4 max-w-prose text-ink-muted">
-          The story is not simply more automation. It is where the binding constraint sits at each
-          stage.
+          The story is not simply more automation. It is how much of the path from idea to production a
+          well-supported organization can own.
         </p>
 
         <h3 className="mt-8 font-sans text-sm font-semibold uppercase tracking-label text-ink">
@@ -99,8 +99,7 @@ export default function PointOfViewPage() {
               </div>
               <div className="max-w-prose">
                 <p className="text-[0.98rem] leading-relaxed text-ink-soft">
-                  <span className="font-semibold text-ink">Where the constraint sits:</span>{' '}
-                  {t.constraint}
+                  <span className="font-semibold text-ink">The focus:</span> {t.focus}
                 </p>
                 <p className="mt-2 text-[0.98rem] leading-relaxed text-ink-muted">
                   <span className="font-semibold text-ink">The move:</span> {t.move}

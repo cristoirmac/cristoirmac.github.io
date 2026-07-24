@@ -14,7 +14,7 @@ export const profile = {
   // Home hero.
   headline: 'Building the technology organization for the next stage of B2B SaaS.',
   subhead:
-    'I lead engineering through platform modernization, acquisition integration, and applied AI — while improving delivery, reliability, and operating leverage.',
+    'I build strong engineering organizations and lead them through platform modernization, applied AI, and cloud operations — improving customer trust, delivery, reliability, and operating leverage.',
 
   // One-paragraph intro (home). Grounded, specific; founder-led is used as evidence, not a category.
   intro:
@@ -41,16 +41,16 @@ export const profile = {
   // Three areas where Chris creates value. Reliability, security, and cost live inside these.
   valueAreas: [
     {
-      title: 'Scale and operating-model change',
-      body: 'Evolving a growing SaaS company’s engineering organization and operating model for its next stage — clearer ownership, more predictable delivery, and lower defect and operational load, without heroics.',
+      title: 'Build organizations and leaders that scale',
+      body: 'I design engineering organizations around the capabilities the business needs, then recruit, develop, and retain the leaders and teams to deliver them — structure, role clarity, management depth, and the hard talent decisions when they are needed.',
     },
     {
-      title: 'Applied AI in products and engineering',
-      body: 'Product AI grounded in structured, permissioned data, and engineering AI grounded in code, context, evaluation, and guardrails — so both create measurable value rather than demonstration output.',
+      title: 'Earn customer trust and partner across the business',
+      body: 'I work with Product, Sales, Customer Success, and executive peers — and directly with customers as an executive sponsor during strategic sales, escalations, incidents, and renewal risk. Trust comes from credible commitments and follow-through, not reassurance.',
     },
     {
-      title: 'Platform and acquisition integration',
-      body: 'Modernizing platforms and integrating acquired products and teams — deciding what to integrate, migrate, retire, or leave alone, and sequencing it so revenue and customer trust survive. Reliability, security, and cost discipline are built into this work, not bolted on.',
+      title: 'Run reliable, economically sound platforms',
+      body: 'I own production — reliability, incident response, postmortems, security, and observability — and treat cloud cost as an architectural and customer concern. Platform modernization and applied AI sit inside this system, improving customer value and operating leverage.',
     },
   ],
 

@@ -44,6 +44,10 @@ export const caseStudies: CaseStudy[] = [
         heading: 'What I learned',
         body: 'A platform transition is an organizational change as much as a technical one. The hardest calls were about sequencing and what *not* to migrate, not about which technology to use. And an API you intend to keep for a decade is worth designing deliberately.',
       },
+      {
+        heading: 'Customers & organization',
+        body: 'This could not be run as an internal engineering program. Existing enterprise customers needed continuity while we built a new SaaS business, so I worked with Product, Sales, Customer Success, Deliverability, and customers directly — explaining platform choices, handling high-stakes operational concerns, and preserving confidence through the change — while building the cloud, data, SRE, and API-product capabilities the original organization had not been designed to provide continuously.',
+      },
     ],
     relatedWriting: [
       'Why Choose AWS Over a Data Center',
@@ -91,6 +95,10 @@ export const caseStudies: CaseStudy[] = [
       {
         heading: 'What I learned',
         body: 'Reliability and speed are not opposites when ownership is clear. The organizations that ship fastest are usually the ones that feel their own production pain directly.',
+      },
+      {
+        heading: 'Leadership & partnership',
+        body: 'DevOps was a people change more than a tooling change. I built production ownership and an SRE practice, coached teams to run what they shipped, and worked with Support and customers so that reliability, incidents, and postmortems connected directly to customer trust rather than staying an internal metric.',
       },
     ],
     relatedWriting: [
@@ -185,6 +193,10 @@ export const caseStudies: CaseStudy[] = [
         heading: 'What I learned',
         body: 'The best integration decision is often "leave it alone for now." Premature integration — merging things because it looks tidy on a slide — is one of the most reliable ways to destroy acquired value.',
       },
+      {
+        heading: 'Leadership & partnership',
+        body: 'Integration is mostly about people and trust. Acquired teams arrive with their own identity, tools, and customers; I brought them in with clear ownership rather than dissolving them, sequenced changes around customer continuity, and partnered with Product, Customer Success, and Sales so migrations protected the relationships and revenue that came with each acquisition.',
+      },
     ],
     relatedWriting: [],
     hasGaps: false,
@@ -226,7 +238,11 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What I learned',
-        body: 'In a PE-backed business, credibility comes from predictability. Delivering steadily and explaining constraints honestly earns more room than any single heroic result.',
+        body: 'In a PE-backed business, credibility comes from predictability. Delivering steadily and explaining tradeoffs honestly earns more room than any single heroic result.',
+      },
+      {
+        heading: 'Leadership, organization & customers',
+        body: 'Scaling was primarily a leadership problem, not an org-chart problem. I built management depth, gave directors and managers clearer ownership, and recruited and developed leaders across the U.S., Brazil, and Moldova. I worked with Product and Customer Success to connect team priorities to customer and business outcomes, and joined strategic customer and executive-sponsor conversations where technology affected the relationship. As the organization became distributed, written context and explicit decision rights helped — but sustained trust came from one-to-one relationships, direct feedback, and leaders knowing they had room to operate.',
       },
     ],
     relatedWriting: [
@@ -272,6 +288,10 @@ export const caseStudies: CaseStudy[] = [
       {
         heading: 'What I learned',
         body: 'The defensibility is not primarily in the model. It comes from the data, entity resolution, permission model, workflow integration, and evaluation discipline around it. AI is leverage on a good foundation and noise on a weak one.',
+      },
+      {
+        heading: 'Leadership & partnership',
+        body: 'The gains came from adoption, not a tool. I built shared context, skills, guardrails, and evaluation so dozens of engineers across three sites could use AI well, set the expectation that this is how the organization works — including its managers — and partnered with Product to keep the customer-facing agents grounded in real public-affairs workflows.',
       },
     ],
     relatedWriting: [

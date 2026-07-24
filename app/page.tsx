@@ -100,17 +100,17 @@ export default function HomePage() {
             <Eyebrow>Point of view</Eyebrow>
             <div className="max-w-prose">
               <p className="font-serif text-2xl leading-relaxed text-ink">
-                Across DevOps, cloud, SaaS, and now AI-enabled delivery, one idea keeps recurring in my
-                work: increase organizational leverage and move the limiting constraint upward.
+                Across cloud, SaaS, platform modernization, and applied AI, the pattern in my work is
+                the same: build strong leaders and teams, give them clear ownership and customer
+                context, and use technology to increase what the whole organization can accomplish.
               </p>
               <p className="mt-5 text-lg leading-relaxed text-ink-muted">
-                “I build an organization that builds the software that builds the software.” The arc
-                runs from getting engineers off infrastructure toil to an operating model where trusted
-                software helps build and operate software — and where judgment, not typing, becomes the
-                scarce resource.
+                “I build an organization that builds the software that builds the software.” The goal is
+                not just more code — it is helping the whole business turn customer needs into reliable
+                products, with judgment and customer context staying firmly human.
               </p>
               <div className="mt-6">
-                <ArrowLink href="/point-of-view/">Read the through-line</ArrowLink>
+                <ArrowLink href="/point-of-view/">Read the point of view</ArrowLink>
               </div>
             </div>
           </div>

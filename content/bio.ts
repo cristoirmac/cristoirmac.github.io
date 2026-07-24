@@ -11,6 +11,8 @@ At **Quorum**, a public-affairs software platform, I scaled engineering from rou
 
 Earlier, at **Discovery Communications**, I led engineering across digital media, streaming video, and direct-to-consumer e-commerce, including the company's first full-episode streaming architecture and post-acquisition integration of Petfinder and HowStuffWorks.
 
+I build technology organizations as deliberately as I build platforms — designing structure, leadership, and talent around what the business needs, owning what happens in production, and running technology with economic discipline. I am also comfortable operating directly with customers: as an executive sponsor, a technical partner in strategic sales, or a senior leader helping navigate escalations, renewal risk, and trust-sensitive platform issues. And I am a deeply product-engaged CTO — not a CTPO — partnering with Product from the customer problem and investment thesis through solution shaping, iteration, and value realization.
+
 I hold an M.S. in Information Systems and Technology from The Johns Hopkins University and a B.S. in Computer Science from George Mason University, and I serve on the External Advisory Board of George Mason University's Computer Science Department. I am based in the Washington, DC area and am a dual U.S. and Irish citizen.`,
 
   facts: [

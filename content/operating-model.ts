@@ -1,39 +1,54 @@
-// Leadership & Operating Model — six principles, affirmative. Public surface.
-// Deliberately concise (~1,000 words): show judgment, don't catalogue it. No poor-fit list,
-// no "theater/humiliation" language, no Product failure-mode catalogue. The intellectual arc and
-// the recursive phrase live on the Point of View page.
+// Leadership & Operating Model — people-first, four dimensions (people/org · customers ·
+// production ownership · technology & economics), with a product-engaged (not CTPO) stance.
+// Public surface. Intentionally comprehensive for a review-and-cut pass; trim after review.
 
 export const operatingModel = {
   centralIdea:
-    'I create value by designing systems in which reality becomes visible early, decisions are explicit, teams can finish important work, and good judgment scales beyond any one leader.',
+    'I build technology organizations as deliberately as I build platforms — designing the structure, leadership, talent, operating practices, and partnerships needed to serve customers and deliver durable business results.',
 
   lede:
-    'This is how I operate as a CTO — not a methodology, but a way of running technology as one system, with a single aim: move the limiting constraint upward, so the organization can turn intent into working software faster and more reliably over time. Six principles, and the conditions where I do my best work.',
+    'This is how I operate as a CTO. Technology leadership reaches well beyond Engineering: building people and organizations, partnering with Product and the commercial team, staying close to customers, owning what happens in production, and running technology with economic discipline. The principles below, and the conditions where I do my best work.',
 
   principles: [
     {
-      heading: 'Run technology as a business system',
-      body: 'I run technology as one system — architecture, organization, process, incentives, customer outcomes, and economics together — rather than optimizing Engineering in isolation. The job is to improve how the business decides, delivers, and adapts. I use process the way Lean does: as a flashlight to reveal queues, aging work, and decision gaps, and then act on what it shows. Artifacts earn their place only when they reduce ambiguity or improve a decision. At SparkPost, moving off on-premises software was at once an architecture, an organization, and a unit-economics problem — I led it as one system, not three separate projects.',
+      heading: 'Build strong leaders and teams',
+      body: 'My first responsibility is to build leaders who can run important parts of the organization without waiting for me. I give direct reports clear outcomes, context, candid feedback, and air cover, and I expect them to develop their own leaders, stay close to customers and teams, and exercise judgment — not merely coordinate work.',
     },
     {
-      heading: 'Make constraints and tradeoffs visible early',
-      body: 'Most expensive problems are constraints that stayed hidden — capacity that was quietly overcommitted, architecture nearing a limit, or work that was started but never truly funded. I make them visible before they compound. I am explicit about what we know, what we do not know yet, what is directional, and what is committed, and about which tradeoff leadership is actually making. That is not slower decision-making. It is how you avoid false confidence, rework, and commitments the system cannot support. In planning, that means replacing early date promises with directional ranges that tighten as risk is retired.',
+      heading: 'Design the organization deliberately',
+      body: 'Organization design is an operating decision, not an annual box-moving exercise. I start from the outcomes, capabilities, and decisions the business needs, then shape teams, roles, reporting lines, and ownership around them — watching for overloaded leaders, unclear decision rights, and structures that reward escalation over ownership. I change structure when the benefit is clear, not to look decisive, because reorganizations carry real human and execution cost.',
     },
     {
-      heading: 'Build for production ownership and reliability',
-      body: 'Software value is realized in production, so teams own more than features: reliability, security, performance, data correctness, observability, and cost to serve. A team should know its software is working before a customer tells it otherwise. I invest in SLOs, telemetry, incident learning, and fast rollback, and I treat reliability, security, privacy, and compliance as business capabilities that shape enterprise readiness, customer trust, and sales cycles — not as specialist side functions. At SparkPost this meant standing up SRE and production ownership for a platform running more than a billion messages a day.',
+      heading: 'Recruit, develop, and retain strong people',
+      body: 'I invest personally across the talent lifecycle: defining senior roles, recruiting and interviewing leaders, calibrating hiring standards, growing internal talent, and building succession depth. Retention comes from credible leadership, challenging work, growth, trust, and fair recognition. When performance falls short, I try to separate unclear expectations, missing skill, weak support, will, and role fit — then address it directly and fairly and make a decision rather than let ambiguity persist. A strong leadership hire compounds the organization’s judgment; a poor one can cost years.',
     },
     {
-      heading: 'Design teams and leadership for clear ownership',
-      body: 'I build the organization that builds the product: strong leaders, clear decision rights, and stable teams that own meaningful parts of the platform. I move work more often than I reorganize people, because context and trust compound over time. I expect managers to be outcome owners — close enough to the customer and the team to make tradeoffs without escalating everything. Product and Engineering bring different responsibilities to a shared outcome: Product leads the customer problem, desired outcomes, and prioritization; Engineering shapes the solution, feasibility, quality, and production outcomes; scope and sequencing are shared tradeoffs, made explicit before execution. I surface the seams between them early, while they are still cheap to resolve. At SparkPost, teams owned their full pipeline — build, deploy, and monitoring; at Quorum I built that ownership across a distributed organization that grew to more than 100 engineers.',
+      heading: 'Partner across the business',
+      body: 'Technology leadership is a team sport. I work closely with Product to shape problems and solutions, with Sales and Customer Success on customer needs and commitments, with Security and Finance on risk and investment, and with the CEO and peers to make business tradeoffs explicit. My job is not to defend Engineering from the business; it is to help the whole company make better technology decisions.',
     },
     {
-      heading: 'Apply AI where it creates measurable leverage',
-      body: 'I treat AI as leverage that has to show up in the work, not a demonstration. Many AI programs stall at the demo stage; the ones that do not are grounded in clear intent, permissioned data, evaluation, cost visibility, and human review — in products and in how engineering works. In products, the test is whether AI makes a real customer workflow faster, more accurate, or newly possible. In engineering, whether it improves cycle time, quality, triage, and consistency. I build reusable context, skills, guardrails, and evaluations rather than relying on individual enthusiasm, so the gains are durable and measurable. In practice: Quincy in production on permissioned data, and an AI-enabled engineering system adopted across every team.',
+      heading: 'Create value through Product and Engineering partnership',
+      body: 'I am not a CTPO by default; I am a deeply product-engaged CTO. Product should be deeply accountable for the market, customer problems, portfolio choices, positioning, and value realization; Technology for technical strategy, execution, production outcomes, security, economics, and the capabilities that make new product possibilities available. I start from the customer outcome, not the requested feature — customer requests are evidence, not automatically the solution — and I want Product and Engineering shaping scope and sequencing together before a solution hardens. Shipping is a milestone, not the outcome: I care about adoption, value realization, reliability, retention, revenue impact, support burden, and cost-to-serve, and I expect us to release the smallest meaningful version that tests the important assumptions, then stop, simplify, or redirect work that is not earning its keep.',
     },
     {
-      heading: 'Manage R&D, platforms, and acquisitions as investments',
-      body: 'I manage technology as an economic system — R&D, infrastructure, staffing mix, platform consolidation, and technical debt — and spend where it creates durable advantage rather than compensating for avoidable complexity. I favor fewer starts and more finishes: limit work in progress, fund work with real capacity, and pull new work only when a team can absorb it. Acquisitions are a portfolio of choices — what to integrate, migrate, retire, or leave alone, and in what sequence. Synergies are real, but they have to be underwritten against integration cost and technical reality, not assumed. At Quorum I consolidated acquired PAC and grassroots products into one platform and migrated the last Phone2Action customers rather than stranding them.',
+      heading: 'Earn and protect customer trust',
+      body: 'Technology leadership does not stop at the edge of Engineering. I spend time with customers where platform capability, reliability, security, roadmap direction, or delivery confidence matters to the relationship — as an executive sponsor for strategic accounts and a partner to Sales and Customer Success. I listen before diagnosing, separate an isolated escalation from a systemic problem, explain what we do and do not know, and help make commitments we can keep. When trust has been damaged, customers need visible ownership, a credible recovery plan, and progress they can see — not a polished explanation.',
+    },
+    {
+      heading: 'Own what happens in production',
+      body: 'Engineering responsibility does not end at deploy. Teams should know how their systems behave for customers, know when something is wrong, and own recovery and improvement. I have operated high-scale cloud platforms where reliability, performance, security, and deliverability had direct customer and commercial consequences. During an incident I value calm ownership, clear roles, accurate communication, and fast recovery; afterward, an honest postmortem of the technical and organizational conditions that allowed it — not a list of individual mistakes.',
+    },
+    {
+      heading: 'Manage R&D and technology as an investment portfolio',
+      body: 'I manage R&D as capital, not a feature factory, through two complementary views: by type of work (product growth, customer value and retention, migration and product integration, platform and operational health, efficiency and cost-to-serve, and strategic discovery) and by product line (where the company invests across the portfolio and what outcome each investment should produce). A work-type view keeps platform work, migration obligations, and operating load from disappearing inside a feature roadmap; a product-line view reveals whether spending actually reflects strategy. Cloud cost lives here too — shaped by architecture, data design, and product behavior, not budget pressure alone; I ran a $6M+ AWS budget at SparkPost on that basis. I do not require precise financial return before we learn, but every initiative should have a clear reason to exist, an intended outcome, and a point at which we revisit the thesis.',
+    },
+    {
+      heading: 'Make priorities and tradeoffs clear',
+      body: 'Teams perform best when they understand what matters, why it matters, what has been decided, and what is still open. I use writing, metrics, and a light operating cadence to create that clarity — to support conversation and judgment, not replace them. I favor fewer starts and more finishes, and I would rather surface a hard tradeoff early than let it appear late as rework or a missed commitment.',
+    },
+    {
+      heading: 'Use platforms, AI, and integration to amplify people',
+      body: 'I invest in platforms, automation, and AI to reduce toil, shorten feedback loops, and help capable people accomplish more — not to remove humans from the work. My AI product instinct starts with a customer workflow that is slow, fragmented, or difficult and asks whether AI can materially improve the outcome while preserving trust, permissions, evaluation, and unit economics — not with where a model can be inserted. I treat product integration and customer migration as one value-realization program: combining technology creates no value if customers cannot move safely, commercial teams cannot explain the destination, or legacy products must be supported forever. At Quorum I consolidated acquired PAC and grassroots products into one platform and migrated the last Phone2Action customers rather than stranding them. Synergies are real, but they have to be underwritten against integration cost and technical reality.',
     },
   ],
 
