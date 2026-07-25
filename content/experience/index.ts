@@ -29,7 +29,7 @@ export const experience: ExperienceChapter[] = [
       'Strengthened production ownership and platform modernization — cloud operations, reliability, security, incident response, SLOs, observability, and a move to Kubernetes — with clearer escalation across Engineering, Support, and Customer Success.',
       'Shipped Quincy to production and led a portfolio of agentic workflows — released, piloted, or in beta — across meeting preparation, CRM, policy communications, grassroots advocacy, and bill tracking, grounded in proprietary structured data with permission-aware retrieval, evaluation, and cost controls.',
       'Built an AI-enabled engineering system — reusable context, skills, evaluation, guardrails, and automated triage — with broad adoption and contribution across the engineering organization.',
-      'Owned security, privacy, compliance, and AI governance (SOC 2 Type II, PCI, GDPR/CCPA, NIST 800-171, vulnerability management, incident response), and improved R&D and infrastructure efficiency through platform consolidation, distributed leadership, and cloud-cost discipline.',
+      'Owned security, privacy, compliance, and AI governance (SOC 2 Type II, PCI, GDPR/CCPA, NIST 800-171, vulnerability management, incident response), and improved R&D and infrastructure efficiency through platform consolidation, a distributed operating model, and cloud-cost discipline.',
     ],
     outcomes: [
       'Over 24 months, improved software-delivery flow with the engineering team — 46% faster change lead time, 72% faster release time, 247% higher deployment frequency, and 34% lower rework (public Haystack case study, linked below).',
