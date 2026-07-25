@@ -26,7 +26,7 @@ export const pointOfView = {
     },
     {
       era: 'SaaS and organizational scale',
-      body: 'Build leadership depth, stable teams, and operating practices that make delivery repeatable.',
+      body: 'Build leadership depth, stable teams, and operating practices that make delivery repeatable, so customers see steady progress rather than occasional bursts.',
       writing: [
         { title: 'Quorum’s Lightweight Kanplan Development Methodology', year: '2024', url: 'https://www.linkedin.com/pulse/quorums-lightweight-kanplan-development-methodology-chris-mcfadden-3y16e/' },
       ],
