@@ -108,7 +108,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'Results',
-        body: 'The Quorum consolidation and customer-migration program simplified the operating model and improved efficiency while protecting continuity. Earlier integrations at SparkPost (Port25/PowerMTA, eDataSource) and Discovery (Petfinder, HowStuffWorks) folded acquired technology and teams into the platform.',
+        body: 'The Quorum program simplified the platform and operating model while sequencing customer migration to protect continuity. Earlier integrations at SparkPost (Port25/PowerMTA, eDataSource) and Discovery (Petfinder, HowStuffWorks) folded acquired technology and teams into the platform.',
       },
       {
         heading: 'What shaped my leadership',

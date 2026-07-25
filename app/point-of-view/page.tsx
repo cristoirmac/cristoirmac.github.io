@@ -23,11 +23,11 @@ export default function PointOfViewPage() {
       <section className="mt-16 border-y border-line py-12">
         <blockquote className="max-w-3xl">
           <p className="font-serif text-3xl font-medium leading-tight text-ink sm:text-4xl">
-            “{pov.recursivePhrase}”
+            “{pov.governingPhrase}”
           </p>
         </blockquote>
         <p className="mt-6 max-w-prose text-[1.05rem] leading-relaxed text-ink-soft">
-          {pov.recursiveGloss}
+          {pov.governingGloss}
         </p>
       </section>
 

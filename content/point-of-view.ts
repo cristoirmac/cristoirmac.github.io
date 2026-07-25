@@ -10,10 +10,10 @@ export const pointOfView = {
   plainOpening:
     'The goal is not simply to help Engineering produce more software. It is to help the whole business — Product, Engineering, Sales, and Customer Success — turn customer needs into reliable products, and to build an organization where good decisions do not depend on the CTO being in every room.',
 
-  // Kept once — a memorable way to describe the current frontier.
-  recursivePhrase: 'I build an organization that builds the software that builds the software.',
-  recursiveGloss:
-    'Increasingly, strong teams create not only customer-facing software but also the tools, context, evaluations, and guardrails that help build and operate it — while people stay responsible for intent, judgment, customer context, and outcomes.',
+  // The governing phrase for the site. Stated once, here; the rest of the site proves it.
+  governingPhrase: 'I build organizations that make strong results repeatable.',
+  governingGloss:
+    'Increasingly, that means building not only customer-facing software but also the tools, context, evaluations, and guardrails that help teams build and operate it — while people remain responsible for intent, judgment, customer context, and outcomes.',
 
   // A short historical arc, oldest first, with the writing that documents it.
   arc: [
