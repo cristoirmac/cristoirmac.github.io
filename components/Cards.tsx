@@ -57,7 +57,12 @@ export function WritingCard({ item }: { item: WritingItem }) {
         )}
       </div>
       <h3 className="mt-2 font-serif text-lg font-medium leading-snug text-ink">
-        <a href={item.url} target="_blank" rel="noopener noreferrer" className="link-underline decoration-transparent hover:decoration-accent">
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-underline decoration-transparent hover:decoration-accent"
+        >
           {item.title}
         </a>
       </h3>

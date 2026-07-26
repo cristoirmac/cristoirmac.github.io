@@ -63,8 +63,8 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
           <div className="mt-10 max-w-3xl rounded-lg border border-line bg-surface px-5 py-4">
             <p className="text-sm text-ink-muted">
               <span className="font-semibold text-ink">Note:</span> some outcome details for this
-              story are held as private interview material and are intentionally not published. Those
-              places are marked in the text.
+              story are held as private interview material and are intentionally not published.
+              Those places are marked in the text.
             </p>
           </div>
         )}

@@ -21,7 +21,7 @@ export default function SiteFooter() {
           <ul className="space-y-2">
             {footerNav.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-sm text-ink-soft link-underline">
+                <Link href={item.href} className="link-underline text-sm text-ink-soft">
                   {item.label}
                 </Link>
               </li>
@@ -33,17 +33,30 @@ export default function SiteFooter() {
           <p className="eyebrow mb-3">Connect</p>
           <ul className="space-y-2">
             <li>
-              <a href={profile.contact.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm text-ink-soft link-underline">
+              <a
+                href={profile.contact.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-underline text-sm text-ink-soft"
+              >
                 LinkedIn
               </a>
             </li>
             <li>
-              <a href={profile.contact.github} target="_blank" rel="noopener noreferrer" className="text-sm text-ink-soft link-underline">
+              <a
+                href={profile.contact.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-underline text-sm text-ink-soft"
+              >
                 GitHub
               </a>
             </li>
             <li>
-              <a href={`mailto:${profile.contact.email}`} className="text-sm text-ink-soft link-underline">
+              <a
+                href={`mailto:${profile.contact.email}`}
+                className="link-underline text-sm text-ink-soft"
+              >
                 Email
               </a>
             </li>

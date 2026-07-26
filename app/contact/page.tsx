@@ -23,7 +23,7 @@ export default function ContactPage() {
             <Eyebrow>Email</Eyebrow>
             <a
               href={`mailto:${profile.contact.email}`}
-              className="mt-3 block text-base text-ink link-underline"
+              className="link-underline mt-3 block text-base text-ink"
             >
               {profile.contact.email}
             </a>
@@ -34,7 +34,7 @@ export default function ContactPage() {
               href={profile.contact.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-3 block text-base text-ink link-underline"
+              className="link-underline mt-3 block text-base text-ink"
             >
               /in/chrismcfadden
             </a>

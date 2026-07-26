@@ -19,8 +19,12 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.001ms !important;
     transition-duration: 0.001ms !important;
   }
@@ -36,7 +40,7 @@ body {
 @layer components {
   /* Small-caps section label used across the site. */
   .eyebrow {
-    @apply text-xs font-sans font-semibold uppercase tracking-label text-accent;
+    @apply font-sans text-xs font-semibold uppercase tracking-label text-accent;
   }
 
   .link-underline {
@@ -47,17 +51,27 @@ body {
   .prose-editorial {
     @apply font-sans text-[1.075rem] leading-[1.75] text-ink-soft;
   }
-  .prose-editorial > * + * { margin-top: 1.15em; }
+  .prose-editorial > * + * {
+    margin-top: 1.15em;
+  }
   .prose-editorial h2 {
     @apply mt-12 font-serif text-2xl font-medium leading-tight tracking-tight text-ink;
   }
   .prose-editorial h3 {
     @apply mt-9 font-sans text-lg font-semibold text-ink;
   }
-  .prose-editorial a { @apply text-ink link-underline; }
-  .prose-editorial strong { @apply font-semibold text-ink; }
-  .prose-editorial ul { @apply list-disc space-y-2 pl-5 marker:text-ink-faint; }
-  .prose-editorial ol { @apply list-decimal space-y-2 pl-5 marker:text-ink-faint; }
+  .prose-editorial a {
+    @apply link-underline text-ink;
+  }
+  .prose-editorial strong {
+    @apply font-semibold text-ink;
+  }
+  .prose-editorial ul {
+    @apply list-disc space-y-2 pl-5 marker:text-ink-faint;
+  }
+  .prose-editorial ol {
+    @apply list-decimal space-y-2 pl-5 marker:text-ink-faint;
+  }
   .prose-editorial blockquote {
     @apply border-l-2 border-accent pl-5 font-serif text-xl italic text-ink-soft;
   }
@@ -68,10 +82,25 @@ body {
 
 /* Print: clean, single-column, ink-on-white for the résumé/bio page. */
 @media print {
-  :root { color-scheme: light; }
-  body { background: #fff; color: #000; font-size: 11pt; }
-  .no-print { display: none !important; }
-  a { color: #000 !important; text-decoration: none !important; }
-  .print-break-avoid { break-inside: avoid; }
-  main { max-width: none !important; }
+  :root {
+    color-scheme: light;
+  }
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+  .no-print {
+    display: none !important;
+  }
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+  .print-break-avoid {
+    break-inside: avoid;
+  }
+  main {
+    max-width: none !important;
+  }
 }

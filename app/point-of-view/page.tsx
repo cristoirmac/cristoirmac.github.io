@@ -22,7 +22,7 @@ export default function PointOfViewRedirectPage() {
         <h1 className="font-serif text-title font-medium text-ink">This page has moved.</h1>
         <p className="mt-5 text-lg leading-relaxed text-ink-soft">
           My point of view now lives inside{' '}
-          <a href={DESTINATION} className="text-ink link-underline">
+          <a href={DESTINATION} className="link-underline text-ink">
             Leadership &amp; Operating Model
           </a>
           . You should be redirected automatically.

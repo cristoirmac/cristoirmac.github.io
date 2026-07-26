@@ -84,7 +84,8 @@ export const writing: WritingItem[] = [
 
   // ——— Quorum / AI ———
   {
-    title: 'We Set Out to Build an AI Tool to Estimate Engineering Work. What We Built Was a Mirror.',
+    title:
+      'We Set Out to Build an AI Tool to Estimate Engineering Work. What We Built Was a Mirror.',
     type: 'article',
     source: 'LinkedIn',
     date: '2026-07-18',
@@ -172,7 +173,8 @@ export const writing: WritingItem[] = [
     type: 'interview',
     source: 'AWS Case Studies',
     url: 'https://aws.amazon.com/solutions/case-studies/sparkpost/',
-    summary: 'An AWS case study on how SparkPost ran a high-scale, cloud-native email and analytics platform on AWS.',
+    summary:
+      'An AWS case study on how SparkPost ran a high-scale, cloud-native email and analytics platform on AWS.',
     tags: ['Cloud & SaaS', 'Architecture & Scale'],
     company: 'SparkPost',
     relatedCaseStudy: 'sparkpost-onprem-to-cloud-native',
@@ -216,7 +218,8 @@ export const writing: WritingItem[] = [
     source: 'LLR Partners',
     date: '2019-05-31',
     url: 'https://www.llrpartners.com/growth-bit/4-questions-to-ask-before-migrating-to-the-cloud/',
-    summary: 'Guidance for leaders weighing a cloud migration, from a practitioner who has run one.',
+    summary:
+      'Guidance for leaders weighing a cloud migration, from a practitioner who has run one.',
     tags: ['Cloud & SaaS', 'Engineering Leadership'],
     company: 'SparkPost',
     relatedCaseStudy: 'sparkpost-onprem-to-cloud-native',
@@ -238,7 +241,8 @@ export const writing: WritingItem[] = [
     type: 'article',
     source: 'LinkedIn',
     url: 'https://www.linkedin.com/pulse/how-run-hackathon-your-company-chris-mcfadden/',
-    summary: 'A practical playbook for running an internal engineering hackathon that produces real outcomes.',
+    summary:
+      'A practical playbook for running an internal engineering hackathon that produces real outcomes.',
     tags: ['Engineering Leadership'],
     company: 'SparkPost',
     needsReview: true,

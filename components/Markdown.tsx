@@ -2,7 +2,13 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 /** Renders a markdown string with the site's editorial prose styles. */
-export default function Markdown({ children, className = '' }: { children: string; className?: string }) {
+export default function Markdown({
+  children,
+  className = '',
+}: {
+  children: string;
+  className?: string;
+}) {
   return (
     <div className={`prose-editorial ${className}`}>
       <ReactMarkdown

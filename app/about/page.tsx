@@ -17,6 +17,8 @@ export default function AboutPage() {
 
       {/* Portrait — shown at the top on mobile; on desktop it lives in the sidebar beside the story */}
       <div className="mt-10 lg:hidden">
+        {/* eslint-disable-next-line @next/next/no-img-element -- static export runs with
+            images.unoptimized, so next/image adds no optimization here. */}
         <img
           src="/images/chris-mcfadden-960.jpg"
           srcSet="/images/chris-mcfadden-480.jpg 480w, /images/chris-mcfadden-960.jpg 960w"
@@ -35,6 +37,8 @@ export default function AboutPage() {
 
         <aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">
           <div className="hidden overflow-hidden rounded-xl border border-line bg-surface lg:block">
+            {/* eslint-disable-next-line @next/next/no-img-element -- static export runs with
+            images.unoptimized, so next/image adds no optimization here. */}
             <img
               src="/images/chris-mcfadden-960.jpg"
               srcSet="/images/chris-mcfadden-480.jpg 480w, /images/chris-mcfadden-960.jpg 960w"
@@ -68,7 +72,7 @@ export default function AboutPage() {
                       href={r.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-ink link-underline"
+                      className="link-underline text-ink"
                     >
                       {r.text}
                     </a>

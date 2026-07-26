@@ -12,7 +12,8 @@ export const experience: ExperienceChapter[] = [
     companyUrl: 'https://www.quorum.us',
     companyDescription:
       'A public-affairs software platform (PE-backed B2B SaaS) serving government relations, advocacy, PAC, stakeholder engagement, and compliance teams.',
-    titles: 'Chief Technology Officer (2023–present); first VP, then SVP of Engineering (2021–2023)',
+    titles:
+      'Chief Technology Officer (2023–present); first VP, then SVP of Engineering (2021–2023)',
     period: '2021 – Present',
     context:
       'Quorum is a PE-backed B2B SaaS company that grew quickly and through acquisition. I joined as its first VP of Engineering, was promoted to SVP, and then to CTO. The mandate evolved from building the leadership and operating model for the next stage to running technology as an efficient platform business — integrating acquired products, maturing reliability and security, and turning applied AI into real value in both the product and the way engineering works.',
@@ -95,7 +96,8 @@ export const experience: ExperienceChapter[] = [
     company: 'Discovery Communications',
     companyDescription:
       'A global media company spanning television, digital media, streaming, and e-commerce during a period of rapid digital expansion.',
-    titles: 'Director of Engineering (2006–2012); E-Commerce & Digital Media Technical Lead (2000–2006)',
+    titles:
+      'Director of Engineering (2006–2012); E-Commerce & Digital Media Technical Lead (2000–2006)',
     period: '2000 – 2012',
     context:
       'At Discovery, I led engineering for digital media, streaming, and e-commerce during the company’s shift from broadcast toward digital distribution — working closely with Product, editorial, marketing, and commerce, and integrating acquired digital businesses.',

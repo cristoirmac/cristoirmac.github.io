@@ -50,7 +50,7 @@ export default function ExperiencePage() {
                     href={chapter.companyUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-3 inline-block text-sm text-ink-soft link-underline"
+                    className="link-underline mt-3 inline-block text-sm text-ink-soft"
                   >
                     {chapter.companyUrl.replace(/^https?:\/\/(www\.)?/, '')}
                   </a>
@@ -61,7 +61,9 @@ export default function ExperiencePage() {
                 <p className="text-sm italic leading-relaxed text-ink-faint">
                   {chapter.companyDescription}
                 </p>
-                <p className="max-w-prose text-lg leading-relaxed text-ink-soft">{chapter.context}</p>
+                <p className="max-w-prose text-lg leading-relaxed text-ink-soft">
+                  {chapter.context}
+                </p>
 
                 <div className="grid gap-8 sm:grid-cols-2">
                   <List label="Scale & scope" items={chapter.scale} />

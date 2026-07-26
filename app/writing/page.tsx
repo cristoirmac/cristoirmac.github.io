@@ -59,7 +59,9 @@ export default function WritingPage() {
                     rel="noopener noreferrer"
                     className="group flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between"
                   >
-                    <span className="font-medium text-ink group-hover:text-accent">{item.title}</span>
+                    <span className="font-medium text-ink group-hover:text-accent">
+                      {item.title}
+                    </span>
                     <span className="shrink-0 text-xs text-ink-faint sm:ml-6">
                       {item.source}
                       {date ? ` · ${date}` : ''}

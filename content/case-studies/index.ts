@@ -22,8 +22,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What I did',
-        body:
-          'As Director, then VP and SVP of Engineering, I led the launch of the SaaS offering and built the organization and architecture to run it.\n\n- Built the cloud platform as its own multi-tenant, API-first system rather than bolting SaaS onto the on-prem codebase.\n- Treated the public API as the product, with versioning and developer experience as first-order concerns.\n- Ran it on AWS instead of our own data centers, so the team spent its time on the product, not the plumbing.\n- Built real-time analytics (Momentum Analytics) early, because deliverability intelligence — not just sending — was the durable differentiator.\n- Reused the deep delivery engine where it made sense, so the SaaS product inherited hard-won expertise.',
+        body: 'As Director, then VP and SVP of Engineering, I led the launch of the SaaS offering and built the organization and architecture to run it.\n\n- Built the cloud platform as its own multi-tenant, API-first system rather than bolting SaaS onto the on-prem codebase.\n- Treated the public API as the product, with versioning and developer experience as first-order concerns.\n- Ran it on AWS instead of our own data centers, so the team spent its time on the product, not the plumbing.\n- Built real-time analytics (Momentum Analytics) early, because deliverability intelligence — not just sending — was the durable differentiator.\n- Reused the deep delivery engine where it made sense, so the SaaS product inherited hard-won expertise.',
       },
       {
         heading: 'The important choices',
@@ -61,8 +60,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What I did',
-        body:
-          'I led the engineering organization through the DevOps transition and the creation of a dedicated Site Reliability Engineering practice, and set the expectation that teams own production outcomes for what they build.\n\n- Cross-functional teams that broke down the development-versus-operations divide.\n- Automation of the release path, so deployment stopped being a manual event.\n- Continuous delivery, moving from quarterly releases toward several deployments a week.\n- An SRE team (established 2016) with observability, SLOs, and incident learning.\n- Production ownership as a norm: the team that builds a service runs it.',
+        body: 'I led the engineering organization through the DevOps transition and the creation of a dedicated Site Reliability Engineering practice, and set the expectation that teams own production outcomes for what they build.\n\n- Cross-functional teams that broke down the development-versus-operations divide.\n- Automation of the release path, so deployment stopped being a manual event.\n- Continuous delivery, moving from quarterly releases toward several deployments a week.\n- An SRE team (established 2016) with observability, SLOs, and incident learning.\n- Production ownership as a norm: the team that builds a service runs it.',
       },
       {
         heading: 'The important choices',
@@ -99,8 +97,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What I did',
-        body:
-          'I owned the technology and organizational integration decisions — what to consolidate, migrate, sunset, or leave alone, and in what order — and the customer-continuity tradeoffs that came with them.\n\n- Decide deliberately for each asset: integrate, migrate, sunset, or leave alone. Not everything should be merged.\n- Sequence around customer continuity, so migrations protect the revenue and workflows customers depend on.\n- Underwrite the synergy case rather than assume it — name the integration cost the upside depends on.\n- Bring acquired teams in with clear ownership instead of dissolving them into the org chart and losing their context.',
+        body: 'I owned the technology and organizational integration decisions — what to consolidate, migrate, sunset, or leave alone, and in what order — and the customer-continuity tradeoffs that came with them.\n\n- Decide deliberately for each asset: integrate, migrate, sunset, or leave alone. Not everything should be merged.\n- Sequence around customer continuity, so migrations protect the revenue and workflows customers depend on.\n- Underwrite the synergy case rather than assume it — name the integration cost the upside depends on.\n- Bring acquired teams in with clear ownership instead of dissolving them into the org chart and losing their context.',
       },
       {
         heading: 'The important choices',
@@ -134,8 +131,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What I did',
-        body:
-          'As CTO I lead a globally distributed organization across the U.S., Brazil, and Moldova, and manage R&D as an investment.\n\n- Built the leadership layer and a product-aligned operating model as the org scaled from ~25 to 100+.\n- Consolidated the platform through a multi-year integration of acquired PAC and grassroots products.\n- Made AI real in both the product and the way engineering works.\n- Ran R&D as an investment — limited work in progress, a bias toward finishing, and a clear reason for each investment.\n- Matured reliability and security as owned engineering disciplines.',
+        body: 'As CTO I lead a globally distributed organization across the U.S., Brazil, and Moldova, and manage R&D as an investment.\n\n- Built the leadership layer and a product-aligned operating model as the org scaled from ~25 to 100+.\n- Consolidated the platform through a multi-year integration of acquired PAC and grassroots products.\n- Made AI real in both the product and the way engineering works.\n- Ran R&D as an investment — limited work in progress, a bias toward finishing, and a clear reason for each investment.\n- Matured reliability and security as owned engineering disciplines.',
       },
       {
         heading: 'The important choices',
@@ -171,8 +167,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What I did',
-        body:
-          'I lead the technology and engineering foundation for AI across the company: customer-facing agents grounded in Quorum’s permissioned data, and an AI-enabled engineering system built around reusable context, skills, evaluation, and guardrails.\n\n- Ground product AI in proprietary structured data with a canonical entity model and permission-aware retrieval, so answers are grounded and access-safe.\n- Distinguish production from pilots: Quincy is in production; additional agentic workflows are released, piloted, or in beta.\n- Build the engineering side as a system — reusable context and skills, evaluation, and guardrails — so AI improves how engineering works, not just individual output.\n- Make evaluation and cost controls first-class in both.\n- Graduate agent autonomy: triage, remediation, and vulnerability work as proving grounds before larger units of feature delivery (see the writing below).',
+        body: 'I lead the technology and engineering foundation for AI across the company: customer-facing agents grounded in Quorum’s permissioned data, and an AI-enabled engineering system built around reusable context, skills, evaluation, and guardrails.\n\n- Ground product AI in proprietary structured data with a canonical entity model and permission-aware retrieval, so answers are grounded and access-safe.\n- Distinguish production from pilots: Quincy is in production; additional agentic workflows are released, piloted, or in beta.\n- Build the engineering side as a system — reusable context and skills, evaluation, and guardrails — so AI improves how engineering works, not just individual output.\n- Make evaluation and cost controls first-class in both.\n- Graduate agent autonomy: triage, remediation, and vulnerability work as proving grounds before larger units of feature delivery (see the writing below).',
       },
       {
         heading: 'The important choices',
