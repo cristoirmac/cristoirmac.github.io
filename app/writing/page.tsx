@@ -15,8 +15,9 @@ export default function WritingPage() {
   // Curated set in the order defined in featured.ts; the rest, newest first, go under "Additional".
   // Both sections run newest first. Order in featured.ts is a selection, not a sequence.
   const curated = (
-    curatedWritingTitles.map((t) => writing.find((w) => w.title === t)).filter(Boolean) as
-      typeof writing
+    curatedWritingTitles
+      .map((t) => writing.find((w) => w.title === t))
+      .filter(Boolean) as typeof writing
   ).sort(sortByDateDesc);
   const curatedSet = new Set(curatedWritingTitles);
   const additional = writing.filter((w) => !curatedSet.has(w.title)).sort(sortByDateDesc);
