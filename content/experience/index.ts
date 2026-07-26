@@ -61,7 +61,8 @@ export const experience: ExperienceChapter[] = [
       'More than one billion messages per day at peak',
       'Event-driven data pipelines processing billions of events per day',
       'Owned a $6M+ AWS budget with disciplined cost controls',
-      'Publicly named customers included LinkedIn, Twitter, Pinterest, Zillow, Groupon, Marketo, and Comcast, among others',
+      'SparkPost publicly reported delivering nearly 40% of the world’s commercial email',
+      'Publicly named customers included The New York Times, Adobe, Booking.com, LinkedIn, Twitter, Pinterest, Zillow, Rakuten, and Comcast, among others',
     ],
     changes: [
       'Led the transition from founder-led, on-premises software to a cloud-native, API-first, multi-tenant SaaS platform, launching SparkPost alongside the established on-prem product.',
@@ -74,7 +75,7 @@ export const experience: ExperienceChapter[] = [
     ],
     outcomes: [
       'Grew into a developer-focused, cloud-native SaaS platform approaching $100M ARR at Rule-of-40 performance, running more than a billion messages a day at peak.',
-      'As SVP, led SparkPost engineering through its $600M acquisition by MessageBird.',
+      'Led engineering through a $180M strategic growth investment in January 2021 and, months later, the $600M acquisition by MessageBird — protecting customer continuity and SLA performance through the ownership transition.',
     ],
     relatedCaseStudies: [
       'sparkpost-onprem-to-cloud-native',
