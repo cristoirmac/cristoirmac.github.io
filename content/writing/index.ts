@@ -135,6 +135,7 @@ export const writing: WritingItem[] = [
     title: 'Quorum’s Journey: Scaling Software Delivery with Haystack',
     type: 'interview',
     source: 'Haystack',
+    date: '2025',
     url: 'https://www.usehaystack.io/customers/quorums-journey-scaling-software-delivery-with-haystack',
     summary:
       'A case study on measuring and improving software-delivery flow at Quorum: real-time delivery and DORA metrics used to find bottlenecks and empower teams, with substantial improvement over two years.',
@@ -171,14 +172,15 @@ export const writing: WritingItem[] = [
   {
     title: 'SparkPost Delivers and Analyzes Billions of Emails Daily on AWS',
     type: 'interview',
-    source: 'AWS Case Studies',
-    url: 'https://aws.amazon.com/solutions/case-studies/sparkpost/',
+    // AWS retired the page; it now redirects to a generic index. Linking the archived copy,
+    // which was verified to be the original SparkPost case study.
+    source: 'AWS Case Studies (archived)',
+    url: 'https://web.archive.org/web/20250414180159/https://aws.amazon.com/solutions/case-studies/sparkpost/',
     summary:
       'An AWS case study on how SparkPost ran a high-scale, cloud-native email and analytics platform on AWS.',
     tags: ['Cloud & SaaS', 'Architecture & Scale'],
     company: 'SparkPost',
     relatedCaseStudy: 'sparkpost-onprem-to-cloud-native',
-    needsReview: true,
   },
   {
     title: 'Media Interview at AWS re:Invent (theCUBE)',
