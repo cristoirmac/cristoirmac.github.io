@@ -184,6 +184,7 @@ export const writing: WritingItem[] = [
     title: 'Media Interview at AWS re:Invent (theCUBE)',
     type: 'interview',
     source: 'theCUBE / AWS re:Invent',
+    date: '2018',
     url: 'https://www.youtube.com/watch?v=DpQkkPgtQRI',
     summary:
       'A video interview on running cloud-native email infrastructure and analytics at scale on AWS.',
@@ -192,20 +193,21 @@ export const writing: WritingItem[] = [
     needsReview: true,
   },
   {
-    title: 'How to Build an API Developers Love',
+    title: '10 Rules for an API Developers Love',
     type: 'article',
-    source: 'LinkedIn',
-    url: 'https://www.linkedin.com/pulse/how-sparkpost-built-best-email-api-developers-chris-mcfadden/',
+    source: 'Medium',
+    date: '2017-06-13',
+    url: 'https://medium.com/@chrismcfadden/10-rules-for-an-api-developers-love-9480d7fbae57',
     summary:
       'Lessons from building SparkPost’s developer-first email API — design principles, versioning, and developer experience.',
     tags: ['Architecture & Scale', 'Product & Engineering'],
     company: 'SparkPost',
-    needsReview: true,
   },
   {
     title: 'RESTful API Versioning Best Practices: Why v1 Is #1',
     type: 'article',
     source: 'dev.to',
+    date: '2017-09-19',
     url: 'https://dev.to/sparkpost/restful-api-versioning-best-practices-why-v1-is-1',
     summary:
       'Argues that careful API design and governance — avoiding breaking changes — can keep a single public API version viable long-term, rather than managing multiple versions.',
@@ -240,22 +242,22 @@ export const writing: WritingItem[] = [
     title: 'How to Run a Hackathon at Your Company',
     type: 'article',
     source: 'LinkedIn',
+    date: '2016-12-29',
     url: 'https://www.linkedin.com/pulse/how-run-hackathon-your-company-chris-mcfadden/',
     summary:
       'A practical playbook for running an internal engineering hackathon that produces real outcomes.',
     tags: ['Engineering Leadership'],
     company: 'SparkPost',
-    needsReview: true,
   },
   {
     title: '7 Principles for Using Microservices to Build an API That Lasts',
     type: 'interview',
     source: 'DevOps.com',
+    date: '2018-02-07',
     url: 'https://devops.com/7-principles-for-using-microservices-to-build-an-api-that-lasts/',
     summary: 'A featured interview distilling principles for durable microservice-based APIs.',
     tags: ['Architecture & Scale', 'DevOps & SRE'],
     company: 'SparkPost',
-    needsReview: true,
   },
 ];
 

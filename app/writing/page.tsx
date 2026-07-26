@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 };
 
 export default function WritingPage() {
-  // Curated set in the order defined in featured.ts; the rest, newest first, go under "Additional".
   // Both sections run newest first. Order in featured.ts is a selection, not a sequence.
   const curated = (
     curatedWritingTitles

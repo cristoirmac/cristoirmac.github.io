@@ -40,7 +40,7 @@ export const caseStudies: CaseStudy[] = [
     relatedWriting: [
       'Why Choose AWS Over a Data Center',
       'Using Microservices to Build an API That Lasts',
-      'How to Build an API Developers Love',
+      '10 Rules for an API Developers Love',
       'SparkPost Delivers and Analyzes Billions of Emails Daily on AWS',
     ],
   },
