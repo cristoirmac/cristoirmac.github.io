@@ -24,7 +24,7 @@ export const experience: ExperienceChapter[] = [
       'Legislative and regulatory data across Congress, all 50 state legislatures, DC, Puerto Rico, and 130+ federal agencies',
       '95,000+ human-verified policymaker and staff profiles underpinning the platform’s data and AI products',
       'Quorum publicly reports working with 50%+ of the Fortune 100 and 1,800+ policy teams',
-      'Publicly named customers span technology and consumer platforms (Stripe, Uber, DoorDash, Expedia), global brands (Toyota, General Motors, Coca-Cola, Walmart, Mastercard, Chipotle, General Mills), federal and state government (U.S. Air Force, SEC, USDA), and advocacy and mission-driven organizations (Sierra Club, Greenpeace, Human Rights Watch, Consumer Technology Association, YMCA)',
+      'Publicly named customers span technology and consumer platforms (Stripe, Uber), global brands and regulated enterprises (Toyota, Walmart, Mastercard), government (U.S. Air Force, SEC), and advocacy organizations (Sierra Club, Greenpeace, Human Rights Watch)',
     ],
     changes: [
       'Built and developed a distributed leadership team across product engineering, platform, data, AI, reliability, security, and IT, and recruited and developed directors, managers, and senior technical leaders — increasing management depth and reducing dependence on the CTO for routine decisions.',
@@ -64,7 +64,7 @@ export const experience: ExperienceChapter[] = [
       'Event-driven data pipelines processing billions of events per day',
       'Owned a $6M+ AWS budget with disciplined cost controls',
       'SparkPost publicly reported delivering nearly 40% of the world’s commercial email',
-      'Publicly named customers included The New York Times, Adobe, Booking.com, LinkedIn, Twitter, Pinterest, Zillow, Rakuten, and Comcast, among others',
+      'Publicly named customers included The New York Times, Adobe, Booking.com, LinkedIn, Twitter, Pinterest, Zillow, Rakuten, and Comcast',
     ],
     changes: [
       'Led the transition from founder-led, on-premises software to a cloud-native, API-first, multi-tenant SaaS platform, launching SparkPost alongside the established on-prem product.',
