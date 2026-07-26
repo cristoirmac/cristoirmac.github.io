@@ -19,7 +19,7 @@ export const profile = {
   // Home hero.
   headline: 'Building the technology organization for the next stage of B2B SaaS.',
   subhead:
-    'I build and lead global engineering organizations through platform modernization, product integration, cloud operations, and applied AI — developing strong leaders, partnering closely with Product and customers, and improving reliability, delivery, and economics.',
+    'I build and lead global engineering organizations through platform modernization, product integration, cloud operations, and applied AI — developing strong leaders, partnering across Product and the business, and improving reliability, delivery, and economics.',
 
   // One-paragraph intro (home "In brief").
   intro:
