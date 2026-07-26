@@ -60,7 +60,9 @@ export const writing: WritingItem[] = [
     type: 'talk',
     source: 'QCon San Francisco 2017',
     date: '2017',
-    url: 'https://www.sparkpost.com/blog/microservices-build-api/',
+    // The SparkPost blog post is gone (redirects to a generic Bird product page);
+    // the QCon session page is the primary source and is live.
+    url: 'https://qconsf.com/sf2017/sf2017/presentation/using-microservices-build-api-lasts.html',
     summary:
       'Designing durable, developer-first APIs on a microservices foundation: API-first design, versioning, decoupling deployment from release, and aligning service boundaries with team ownership.',
     tags: ['Architecture & Scale', 'Product & Engineering'],
