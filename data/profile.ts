@@ -2,7 +2,11 @@
 // The website is a PUBLIC surface and uses public / LinkedIn framing only.
 // Posture: a portfolio, not a job-search page. No target-role / mandate / availability copy.
 
-export const SITE_URL = 'https://chrismcfadden.com'; // change on domain confirmation
+// Canonical origin. Drives canonical tags, og:url, sitemap, and robots.
+// Must match where the site is actually served. NOTE: chrismcfadden.com is registered to
+// someone else — do not point at it. Update only if a custom domain is configured in Pages
+// (repo CNAME + DNS) and confirmed serving.
+export const SITE_URL = 'https://cristoirmac.github.io';
 
 export const profile = {
   name: 'Chris McFadden',
