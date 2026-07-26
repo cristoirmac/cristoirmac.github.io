@@ -23,7 +23,7 @@ export const experience: ExperienceChapter[] = [
       'Multi-product public-affairs SaaS platform on Kubernetes',
       'Legislative and regulatory data across Congress, all 50 state legislatures, DC, Puerto Rico, and 130+ federal agencies',
       '95,000+ human-verified policymaker and staff profiles underpinning the platform’s data and AI products',
-      'Quorum publicly reports working with 45% of the Fortune 100 and 1,800+ policy teams',
+      'Quorum publicly reports working with 50%+ of the Fortune 100 and 1,800+ policy teams',
       'Publicly named customers span technology and consumer platforms (Stripe, Uber, DoorDash, Expedia), global brands (Toyota, General Motors, Coca-Cola, Walmart, Mastercard, Chipotle, General Mills), federal and state government (U.S. Air Force, SEC, USDA), and advocacy and mission-driven organizations (Sierra Club, Greenpeace, Human Rights Watch, Consumer Technology Association, YMCA)',
     ],
     changes: [
