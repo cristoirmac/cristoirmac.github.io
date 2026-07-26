@@ -21,6 +21,8 @@ export const experience: ExperienceChapter[] = [
       'Globally distributed organization across the U.S., Brazil, and Moldova',
       'Scaled engineering from ~25 to 100+ (2021–2023)',
       'Multi-product public-affairs SaaS platform',
+      'Quorum publicly reports working with 45% of the Fortune 100 and 1,800+ policy teams',
+      'Publicly named customers span technology and consumer platforms (Stripe, Uber, DoorDash, Expedia), global brands (Toyota, General Motors, Coca-Cola, Walmart, Mastercard, Chipotle, General Mills), federal and state government (U.S. Air Force, SEC, USDA), and advocacy and mission-driven organizations (Sierra Club, Greenpeace, Human Rights Watch, Consumer Technology Association, YMCA)',
     ],
     changes: [
       'Built and developed a distributed leadership team across product engineering, platform, data, AI, reliability, security, and IT, and recruited and developed directors, managers, and senior technical leaders — increasing management depth and reducing dependence on the CTO for routine decisions.',
@@ -59,6 +61,7 @@ export const experience: ExperienceChapter[] = [
       'More than one billion messages per day at peak',
       'Event-driven data pipelines processing billions of events per day',
       'Owned a $6M+ AWS budget with disciplined cost controls',
+      'Publicly named customers included LinkedIn, Twitter, Pinterest, Zillow, Groupon, Marketo, and Comcast, among others',
     ],
     changes: [
       'Led the transition from founder-led, on-premises software to a cloud-native, API-first, multi-tenant SaaS platform, launching SparkPost alongside the established on-prem product.',

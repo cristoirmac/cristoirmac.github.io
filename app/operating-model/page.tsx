@@ -24,8 +24,8 @@ export default function OperatingModelPage() {
         <div className="max-w-prose">
           <p className="font-serif text-2xl leading-relaxed text-ink-soft">{om.lede}</p>
           <p className="mt-5 text-sm text-ink-muted">
-            For the idea behind it, see my <ArrowLink href="/point-of-view/">Point of View</ArrowLink>.
-            For the practical layer, <ArrowLink href="/readme/">Working with me</ArrowLink>.
+            For the practical layer — how I communicate, decide, and work with people — see{' '}
+            <ArrowLink href="/readme/">Working with me</ArrowLink>.
           </p>
         </div>
       </div>

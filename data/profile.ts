@@ -23,7 +23,7 @@ export const profile = {
 
   // One-paragraph intro (home "In brief").
   intro:
-    'Across more than 20 years at Discovery, SparkPost, and Quorum, I have built global engineering organizations, operated cloud platforms at billion-message scale, integrated acquired products and teams, and applied AI in both customer workflows and engineering. The common thread is building organizations that turn customer needs into reliable products — without losing the strengths that made them successful.',
+    'Across more than 20 years at Discovery, SparkPost, and Quorum, I have built global engineering organizations, operated cloud platforms at billion-message scale, integrated acquired products and teams, and applied AI in both customer workflows and engineering. Those platforms served enterprise, government, and mission-driven customers where reliability, security, and compliance are business-critical. The common thread is building organizations that turn customer needs into reliable products — without losing the strengths that made them successful.',
 
   // Home "Connect" invitation. Portfolio posture — comparing notes, not seeking a role.
   invitationShort:

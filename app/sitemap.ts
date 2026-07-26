@@ -9,7 +9,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '',
     '/experience',
     '/transformations',
-    '/point-of-view',
     '/operating-model',
     '/readme',
     '/writing',

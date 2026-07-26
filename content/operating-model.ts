@@ -6,7 +6,7 @@ export const operatingModel = {
     'I build technology organizations as deliberately as I build platforms — designing the structure, leadership, talent, and partnerships needed to serve customers and deliver lasting business results.',
 
   lede:
-    'This is how I operate as a CTO. Technology leadership reaches well beyond Engineering: building people and organizations, partnering with Product and the commercial team, staying close to customers, owning what happens in production, and investing in platforms, cloud, and AI with economic discipline.',
+    'This is how I operate as a CTO. Technology leadership reaches well beyond Engineering: building people and organizations, partnering with Product and the commercial team, staying close to customers, owning what happens in production, and investing in platforms, cloud, and AI with economic discipline. Taken together, the aim is simple: I build organizations that make strong results repeatable.',
 
   principles: [
     {
@@ -31,7 +31,7 @@ export const operatingModel = {
     },
     {
       heading: 'Use platforms, integration, and AI to amplify people',
-      body: 'I invest in platforms, automation, and AI to reduce toil, shorten feedback loops, and help capable teams spend more time on customer problems, design, judgment, and improvement. My AI product instinct starts with a customer workflow that is slow, fragmented, or difficult and asks whether AI can materially improve the outcome while preserving trust, permissions, evaluation, and unit economics — not with where a model can be inserted. I treat product integration and customer migration as one value-realization program: combining products creates no value if customers cannot move safely or the destination is unclear. Synergies are real, but they have to be underwritten against integration cost and technical reality.',
+      body: 'As producing software becomes easier, judgment, customer understanding, adoption, reliability, and responsible operation matter more. I invest in platforms, automation, and AI to improve the whole delivery system — planning, context, evaluation, quality, and operations — not simply to generate more code, so capable teams spend more time on customer problems, design, and judgment. My AI product instinct starts with a customer workflow that is slow, fragmented, or difficult and asks whether AI can materially improve the outcome while preserving trust, permissions, evaluation, and unit economics — not with where a model can be inserted. I treat product integration and customer migration as one value-realization program: combining products creates no value if customers cannot move safely or the destination is unclear. Synergies are real, but they have to be underwritten against integration cost and technical reality.',
     },
   ],
 
