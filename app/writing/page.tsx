@@ -13,9 +13,11 @@ export const metadata: Metadata = {
 
 export default function WritingPage() {
   // Curated set in the order defined in featured.ts; the rest, newest first, go under "Additional".
-  const curated = curatedWritingTitles
-    .map((t) => writing.find((w) => w.title === t))
-    .filter(Boolean) as typeof writing;
+  // Both sections run newest first. Order in featured.ts is a selection, not a sequence.
+  const curated = (
+    curatedWritingTitles.map((t) => writing.find((w) => w.title === t)).filter(Boolean) as
+      typeof writing
+  ).sort(sortByDateDesc);
   const curatedSet = new Set(curatedWritingTitles);
   const additional = writing.filter((w) => !curatedSet.has(w.title)).sort(sortByDateDesc);
 
@@ -29,7 +31,7 @@ export default function WritingPage() {
 
       <div className="mt-8 max-w-prose rounded-xl border border-line bg-surface p-5">
         <p className="text-sm leading-relaxed text-ink-muted">
-          A selection spanning cloud and DevOps through applied AI. For how I connect them, see{' '}
+          Newest first, spanning applied AI back to cloud and DevOps. For how I connect them, see{' '}
           <ArrowLink href="/operating-model/">How I Lead</ArrowLink>.
         </p>
       </div>

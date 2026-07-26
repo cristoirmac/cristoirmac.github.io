@@ -3,11 +3,14 @@ import { Container, Eyebrow, ArrowLink } from '@/components/primitives';
 import { CaseStudyCard, WritingCard } from '@/components/Cards';
 import { profile } from '@/data/profile';
 import { featuredCaseStudies, featuredWritingTitles } from '@/data/featured';
-import { getCaseStudy, getWritingByTitle } from '@/lib/content';
+import { getCaseStudy, getWritingByTitle, sortByDateDesc } from '@/lib/content';
 
 export default function HomePage() {
   const studies = featuredCaseStudies.map(getCaseStudy).filter(Boolean);
-  const writing = featuredWritingTitles.map(getWritingByTitle).filter(Boolean);
+  const writing = featuredWritingTitles
+    .map(getWritingByTitle)
+    .filter(Boolean)
+    .sort((a, b) => sortByDateDesc(a!, b!));
 
   return (
     <>

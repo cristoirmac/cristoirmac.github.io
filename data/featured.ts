@@ -8,7 +8,7 @@ export const featuredCaseStudies = [
 ];
 
 // The three strongest pieces for the home page (by exact title): one cloud/DevOps,
-// one product/operating-model, one applied-AI.
+// one product/operating-model, one applied-AI. Rendered newest first.
 export const featuredWritingTitles = [
   'Our DevOps Journey @SparkPost Engineering',
   'Quorum’s Lightweight Kanplan Development Methodology',
@@ -16,6 +16,7 @@ export const featuredWritingTitles = [
 ];
 
 // The six curated pieces featured on the Writing page, by exact title.
+// Order here is a selection, not a sequence — the page sorts newest first.
 // Everything else appears under "Additional writing & interviews."
 export const curatedWritingTitles = [
   'Why Choose AWS Over a Data Center',
