@@ -17,9 +17,10 @@ export const profile = {
   location: 'Washington, DC area',
 
   // Home hero.
-  headline: 'Building the technology organization for the next stage of B2B SaaS.',
+  headline:
+    'Building the technology organization for the next stage of enterprise software growth.',
   subhead:
-    'I build and lead global engineering organizations through platform modernization, product integration, cloud operations, and applied AI — developing strong leaders, partnering across Product and the business, and improving reliability, delivery, and economics.',
+    'I lead engineering for B2B SaaS companies through scale, platform modernization, cloud operations, and applied AI — developing strong leaders, partnering across Product and the business, and improving reliability, delivery, and economics.',
 
   // One-paragraph intro (home "In brief").
   intro:
