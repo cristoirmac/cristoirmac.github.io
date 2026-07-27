@@ -134,6 +134,18 @@ export const writing: WritingItem[] = [
     relatedCaseStudy: 'quorum-scaling-pe-backed-saas',
   },
   {
+    title: 'Quorum Enhances Developer Experience with Augment’s Context-Aware AI Assistant',
+    type: 'interview',
+    source: 'Augment Code',
+    date: '2025-10-01',
+    url: 'https://www.augmentcode.com/customers/quorum',
+    summary:
+      'A customer case study on Quorum’s move to context-aware AI coding assistance across a ~70-developer organization, with Chris quoted on response quality and on AI coding tools becoming as integral to development as the IDE.',
+    tags: ['AI', 'Engineering Leadership'],
+    company: 'Quorum',
+    relatedCaseStudy: 'applied-ai-product-and-delivery',
+  },
+  {
     title: 'Quorum’s Journey: Scaling Software Delivery with Haystack',
     type: 'interview',
     source: 'Haystack',

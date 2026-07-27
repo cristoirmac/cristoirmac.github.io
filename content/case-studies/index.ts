@@ -183,6 +183,7 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     relatedWriting: [
+      'Quorum Enhances Developer Experience with Augment’s Context-Aware AI Assistant',
       'Before You Trust AI to Build, Make It Fix Bugs',
       'Claude Code Is the Most Important Engineering Management Tool Since Jira',
       'We Set Out to Build an AI Tool to Estimate Engineering Work. What We Built Was a Mirror.',
