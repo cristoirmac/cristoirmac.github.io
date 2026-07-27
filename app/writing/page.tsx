@@ -26,12 +26,13 @@ export default function WritingPage() {
       <PageHeader
         eyebrow="Writing & Media"
         title="Writing, talks, and interviews."
-        dek="Selected writing, talks, and interviews on cloud platforms, engineering leadership, product delivery, production operations, customer trust, and applied AI. External links open at the original source."
+        dek="Selected writing, talks, and interviews on building and operating software businesses — from cloud platforms and production systems to engineering leadership, product delivery, and applied AI. External links open at the original source."
       />
 
       <div className="mt-8 max-w-prose rounded-xl border border-line bg-surface p-5">
         <p className="text-sm leading-relaxed text-ink-muted">
-          Newest first, spanning applied AI back to cloud and DevOps. For how I connect them, see{' '}
+          Newest first. Together, these pieces trace how my thinking has evolved from cloud and
+          DevOps through software delivery and applied AI. For the operating model behind them, see{' '}
           <ArrowLink href="/operating-model/">How I Lead</ArrowLink>.
         </p>
       </div>
@@ -46,10 +47,10 @@ export default function WritingPage() {
         </div>
       </section>
 
-      {/* Additional (compact: title, source, date, link) */}
+      {/* More writing and media (compact: title, source, date, link) */}
       {additional.length > 0 && (
         <section className="mt-14 border-t border-line pt-10">
-          <Eyebrow>Additional writing &amp; interviews</Eyebrow>
+          <Eyebrow>More writing and media</Eyebrow>
           <ul className="mt-5 divide-y divide-line">
             {additional.map((item) => {
               const date = formatDate(item.date);

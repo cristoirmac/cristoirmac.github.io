@@ -19,7 +19,7 @@ export const featuredWritingTitles = [
 // Order here is a selection, not a sequence — the page sorts newest first.
 // Everything else appears under "Additional writing & interviews."
 export const curatedWritingTitles = [
-  'Why Choose AWS Over a Data Center',
+  'We Set Out to Build an AI Tool to Estimate Engineering Work. What We Built Was a Mirror.',
   'Our DevOps Journey @SparkPost Engineering',
   'Using Microservices to Build an API That Lasts',
   'Quorum’s Lightweight Kanplan Development Methodology',
