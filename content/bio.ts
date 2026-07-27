@@ -13,5 +13,5 @@ Across three waves of change — cloud and DevOps, SaaS scale, and now applied A
 
 That path shaped how I lead today. I build organizations and leaders deliberately, stay close to customers, treat production as the place where assumptions meet reality, and manage technology as an investment in customer value and long-term business performance.
 
-I hold an M.S. in Information Systems and Technology from The Johns Hopkins University and a B.S. in Computer Science from George Mason University, where I serve on the Computer Science External Advisory Board. I am based in the Washington, DC area and am a dual U.S. and Irish citizen.`,
+I hold an M.S. in Information Systems and Technology from The Johns Hopkins University and a B.S. in Computer Science from George Mason University, where I serve on the Computer Science External Advisory Board. I am based in the Washington, DC area and am a dual U.S. and Irish citizen. I went to secondary school in Dublin, and wrote recently about [going back for its fiftieth anniversary](https://www.linkedin.com/pulse/walking-old-paths-memory-belonging-return-ireland-chris-mcfadden-fm9le/).`,
 } as const;
