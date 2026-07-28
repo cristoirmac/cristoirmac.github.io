@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     description: seo.description,
   },
   robots: { index: true, follow: true },
+  // Google Search Console, URL-prefix property. DNS TXT verification is not possible on a
+  // github.io subdomain — GitHub controls that DNS — so the site verifies via meta tag.
+  verification: { google: '53BnakPN15Gg193lkL556jhJbsPGrHm9Jmin0kqkZpc' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
