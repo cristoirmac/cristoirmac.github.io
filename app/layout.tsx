@@ -71,6 +71,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
+        {/* GoatCounter — cookieless page counts, no personal data, so no consent banner.
+            The site's only third-party request. Deliberately a plain async tag rather than
+            next/script: count.js counts on the window load event, and next/script injects
+            after that event has already fired, so nothing would ever be recorded. */}
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script
+          data-goatcounter="https://cristoirmac.goatcounter.com/count"
+          async
+          src="https://gc.zgo.at/count.js"
+        />
       </body>
     </html>
   );
