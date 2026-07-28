@@ -2,3 +2,6 @@ node_modules/
 .next/
 out/
 package-lock.json
+
+# Third-party verification files must stay byte-exact — do not reformat.
+public/google*.html
