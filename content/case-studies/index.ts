@@ -89,15 +89,15 @@ export const caseStudies: CaseStudy[] = [
     period: '2006 – 2026',
     eyebrow: 'Across Discovery, SparkPost, and Quorum · 2006–2026',
     tags: ['Acquisition & Integration', 'Cloud & SaaS'],
-    dek: 'Deciding what to integrate, migrate, sunset, or leave alone — and sequencing it so revenue and customer trust survive the transition.',
+    dek: 'Creating customer, platform, and organizational leverage through thoughtful integration — while protecting revenue, continuity, and customer trust.',
     sections: [
       {
         heading: 'Situation',
-        body: 'I have led integration across three companies: Petfinder and HowStuffWorks at Discovery; Port25/PowerMTA and eDataSource at SparkPost; and a multi-product PAC and grassroots portfolio at Quorum. Acquisition integration is where value is quietly created or destroyed. Overzealous integration breaks working products and loses customers; under-integration leaves permanent operating drag and a confusing product surface. Acquired teams arrive with their own identity, tooling, and expectations. The hard part is sequencing and honesty about cost.',
+        body: 'I have led integration across three companies: Petfinder and HowStuffWorks at Discovery; Port25/PowerMTA and eDataSource at SparkPost; and a multi-product PAC and grassroots portfolio at Quorum. Done thoughtfully, acquisition integration creates leverage: a clearer customer experience, a stronger shared platform, and teams that can build and operate more effectively together. Capturing that value requires deliberate choices and sequencing. Over-integration can break working products and lose customers; under-integration can leave permanent operating drag and a confusing product surface. Acquired teams also arrive with their own identity, tooling, and expectations, so the integration plan has to be grounded in cost and designed to earn trust.',
       },
       {
         heading: 'What I did',
-        body: 'I owned the technology and organizational integration decisions — what to consolidate, migrate, sunset, or leave alone, and in what order — and the customer-continuity tradeoffs that came with them.\n\n- Decide deliberately for each asset: integrate, migrate, sunset, or leave alone. Not everything should be merged.\n- Sequence around customer continuity, so migrations protect the revenue and workflows customers depend on.\n- Underwrite the synergy case rather than assume it — name the integration cost the upside depends on.\n- Bring acquired teams in with clear ownership instead of dissolving them into the org chart and losing their context.',
+        body: 'I owned the technology and organizational integration decisions — what to consolidate, migrate, sunset, or leave alone, and in what order — and the customer-continuity tradeoffs that came with them.\n\n- Start with the customer outcome and how we will measure it. Integration is a means, not the goal.\n- Compare credible options — including doing less or waiting — across customer impact, delivery risk, reversibility, cost, and operating complexity.\n- Model cost and performance at expected and peak scale. A simple model of volume, throughput, latency, growth, and unit cost is usually enough to expose weak assumptions.\n- Prefer the smallest solution that delivers the outcome. Avoid novel technology without a reason, but also question familiar tools that do not fit the problem.\n- Get a thin end-to-end path working in a live environment early, even if it covers only the happy path, and iterate from there. Component-level progress can look 90% complete while the system has never actually worked as a whole.\n- Build validation, observability, error handling, testing, and recovery into the integration rather than adding them later.\n- Sequence migrations around customer continuity, underwrite the cost behind the synergy case, and give acquired teams clear ownership.',
       },
       {
         heading: 'The important choices',
@@ -109,7 +109,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What shaped my leadership',
-        body: 'The best integration decision is often "leave it alone for now." Premature integration — merging things because it looks tidy on a slide — is one of the most reliable ways to destroy acquired value. Integration is mostly about people and trust: acquired teams do their best work when they keep their identity and gain clear ownership.',
+        body: 'Integration creates value when it starts with a clear customer outcome. Programs get into trouble when teams commit to an approach too early, underestimate scale or failure modes, or build more than the outcome requires. The best answer is often a simpler design — or "leave it alone for now." Integration is also about people and trust: acquired teams do their best work when they keep their context and gain clear ownership.',
       },
     ],
     relatedWriting: [],
