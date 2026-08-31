@@ -84,7 +84,7 @@ export const caseStudies: CaseStudy[] = [
   // 3 ─────────────────────────────────────────────────────────────────────
   {
     slug: 'post-acquisition-integration',
-    title: 'Post-acquisition platform and organizational integration',
+    title: 'What I’ve learned leading post-acquisition integration',
     company: 'Quorum',
     period: '2006 – 2026',
     eyebrow: 'Across Discovery, SparkPost, and Quorum · 2006–2026',
@@ -92,23 +92,23 @@ export const caseStudies: CaseStudy[] = [
     dek: 'Creating customer, platform, and organizational leverage through thoughtful integration — while protecting revenue, continuity, and customer trust.',
     sections: [
       {
-        heading: 'Situation',
+        heading: 'Experience',
         body: 'I have led integration across three companies: Petfinder and HowStuffWorks at Discovery; Port25/PowerMTA and eDataSource at SparkPost; and a multi-product PAC and grassroots portfolio at Quorum. Done thoughtfully, acquisition integration creates leverage: a clearer customer experience, a stronger shared platform, and teams that can build and operate more effectively together. Capturing that value requires deliberate choices and sequencing. Over-integration can break working products and lose customers; under-integration can leave permanent operating drag and a confusing product surface. Acquired teams also arrive with their own identity, tooling, and expectations, so the integration plan has to be grounded in cost and designed to earn trust.',
       },
       {
-        heading: 'What I did',
-        body: 'I owned the technology and organizational integration decisions — what to consolidate, migrate, sunset, or leave alone, and in what order — and the customer-continuity tradeoffs that came with them.\n\n- Start with the customer outcome and how we will measure it. Integration is a means, not the goal.\n- Compare credible options — including doing less or waiting — across customer impact, delivery risk, reversibility, cost, and operating complexity.\n- Model cost and performance at expected and peak scale. A simple model of volume, throughput, latency, growth, and unit cost is usually enough to expose weak assumptions.\n- Prefer the smallest solution that delivers the outcome. Avoid novel technology without a reason, but also question familiar tools that do not fit the problem.\n- Get a thin end-to-end path working in a live environment early, even if it covers only the happy path, and iterate from there. Component-level progress can look 90% complete while the system has never actually worked as a whole.\n- Build validation, observability, error handling, testing, and recovery into the integration rather than adding them later.\n- Sequence migrations around customer continuity, underwrite the cost behind the synergy case, and give acquired teams clear ownership.',
+        heading: 'What I’ve learned',
+        body: 'Across these programs, the same principles have consistently separated sound integration decisions from expensive ones.\n\n- Define the customer outcome and measures of success, then compare credible options — including doing less or waiting.\n- Make an explicit decision for each product and platform: integrate, migrate, preserve, sunset, or retire. Otherwise duplicate systems become permanent cost and complexity.\n- Use simple models of volume, throughput, latency, growth, and unit cost to test cost and performance assumptions before they become scale problems.\n- Choose the smallest solution that delivers the outcome, with technology suited to the problem rather than novel or merely familiar.\n- Assign end-to-end ownership and connect a thin path in a live environment early. Component teams can report local progress while the system has never worked as a whole.\n- Rationalize team responsibilities around the integrated customer experience while preserving acquired teams’ domain context and clarifying ownership.\n- Build validation, observability, error handling, testing, and recovery into the integration, then sequence migration around customer continuity.',
       },
       {
-        heading: 'The important choices',
-        body: 'At Quorum we chose a multi-year consolidation rather than a fast, disruptive merge — accepting slower headline integration in exchange for customer continuity and a simpler long-term model. That required a clear product destination, careful migration sequencing, and close partnership with Product, Sales, and Customer Success to preserve customer relationships throughout the transition.',
+        heading: 'How this showed up at Quorum',
+        body: 'We chose a multi-year consolidation rather than a fast, disruptive merge — accepting slower headline integration in exchange for customer continuity and a simpler long-term model. We treated it as one end-to-end customer and business outcome, not a collection of component projects. That required clear ownership, careful migration sequencing, and close partnership with Product, Sales, and Customer Success throughout the transition.',
       },
       {
-        heading: 'Results',
+        heading: 'Evidence',
         body: 'The Quorum program simplified the platform and operating model while sequencing customer migration to protect continuity. Earlier integrations at SparkPost (Port25/PowerMTA, eDataSource) and Discovery (Petfinder, HowStuffWorks) folded acquired technology and teams into the platform.',
       },
       {
-        heading: 'What shaped my leadership',
+        heading: 'Leadership takeaway',
         body: 'Integration creates value when it starts with a clear customer outcome. Programs get into trouble when teams commit to an approach too early, underestimate scale or failure modes, or build more than the outcome requires. The best answer is often a simpler design — or "leave it alone for now." Integration is also about people and trust: acquired teams do their best work when they keep their context and gain clear ownership.',
       },
     ],
