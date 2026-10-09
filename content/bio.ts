@@ -9,6 +9,8 @@ At **Discovery**, I learned that technology creates value only when Engineering 
 
 At **Quorum**, that responsibility broadened further: building a global leadership team, integrating acquired products, partnering across Product, Sales, and Customer Success, managing R&D investment, and applying AI both to customer workflows and to how software is built.
 
+In October 2026, I joined **Citian** as SVP Engineering. Its work in transportation safety and accessibility brings data science and software engineering to decisions that affect communities. It is an opportunity to help build and grow a technology company whose products have a direct connection to everyday life.
+
 Across three waves of change — cloud and DevOps, SaaS scale, and now applied AI — the recurring lesson has been that technology transitions succeed when the organization changes with the technology. Better tools matter, but durable results depend on ownership, judgment, customer context, and teams that can learn.
 
 That path shaped how I lead today. I build organizations and leaders deliberately, stay close to customers, treat production as the place where assumptions meet reality, and manage technology as an investment in customer value and long-term business performance.

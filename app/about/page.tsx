@@ -7,7 +7,7 @@ import { profile } from '@/data/profile';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Professional biography of Chris McFadden — 20+ years in software and engineering leadership across enterprise SaaS, high-scale cloud platforms, acquisitions, and AI, based in the Washington, DC area.',
+    'Professional biography of Chris McFadden — 20+ years in software and engineering leadership across enterprise SaaS, high-scale cloud platforms, acquisitions, AI, and GovTech; now SVP Engineering at Citian, based in the Washington, DC area.',
 };
 
 export default function AboutPage() {

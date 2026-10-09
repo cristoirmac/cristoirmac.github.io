@@ -30,7 +30,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'Results',
-        body: 'SparkPost became a developer-focused, cloud-native SaaS platform approaching $100M ARR at Rule-of-40 performance, running more than a billion messages a day at peak. The API-first bet made it credible with developers; the analytics bet made it credible on deliverability. The writing below is contemporaneous evidence of the choices, made while they were live rather than in hindsight.',
+        body: 'SparkPost became a developer-focused, cloud-native SaaS platform running more than a billion messages a day at peak. The API-first bet made it credible with developers; the analytics bet made it credible on deliverability. The writing below is contemporaneous evidence of the choices, made while they were live rather than in hindsight.',
       },
       {
         heading: 'What shaped my leadership',
@@ -121,7 +121,7 @@ export const caseStudies: CaseStudy[] = [
     slug: 'quorum-scaling-pe-backed-saas',
     title: 'Scaling a PE-backed SaaS engineering organization at Quorum',
     company: 'Quorum',
-    period: '2021 – Present',
+    period: '2021 – 2026',
     tags: ['Engineering Leadership', 'Product & Engineering', 'Acquisition & Integration'],
     dek: 'From first VP of Engineering to CTO: building the organization, operating model, and platform for a PE-backed B2B SaaS business.',
     sections: [
@@ -131,7 +131,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What I did',
-        body: 'As CTO I lead a globally distributed organization across the U.S., Brazil, and Moldova, and manage R&D as an investment.\n\n- Built the leadership layer and a product-aligned operating model as the org scaled from ~25 to 100+.\n- Consolidated the platform through a multi-year integration of acquired PAC and grassroots products.\n- Made AI real in both the product and the way engineering works.\n- Ran R&D as an investment — limited work in progress, a bias toward finishing, and a clear reason for each investment.\n- Matured reliability and security as owned engineering disciplines.',
+        body: 'As CTO I led a globally distributed organization across the U.S., Brazil, and Moldova, and managed R&D as an investment.\n\n- Built the leadership layer and a product-aligned operating model as the org scaled from ~25 to 100+.\n- Consolidated the platform through a multi-year integration of acquired PAC and grassroots products.\n- Made AI real in both the product and the way engineering works.\n- Ran R&D as an investment — limited work in progress, a bias toward finishing, and a clear reason for each investment.\n- Matured reliability and security as owned engineering disciplines.',
       },
       {
         heading: 'The important choices',
@@ -157,7 +157,7 @@ export const caseStudies: CaseStudy[] = [
     slug: 'applied-ai-product-and-delivery',
     title: 'Applying AI to product workflows and engineering delivery',
     company: 'Quorum',
-    period: '2024 – Present',
+    period: '2024 – 2026',
     tags: ['AI', 'Product & Engineering'],
     dek: 'Shipping AI products grounded in proprietary, permissioned data — and using AI as real leverage inside engineering.',
     sections: [
@@ -167,7 +167,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'What I did',
-        body: 'I lead the technology and engineering foundation for AI across the company: customer-facing agents grounded in Quorum’s permissioned data, and an AI-enabled engineering system built around reusable context, skills, evaluation, and guardrails.\n\n- Ground product AI in proprietary structured data with a canonical entity model and permission-aware retrieval, so answers are grounded and access-safe.\n- Distinguish production from pilots: Quincy is in production; additional agentic workflows are released, piloted, or in beta.\n- Build the engineering side as a system — reusable context and skills, evaluation, and guardrails — so AI improves how engineering works, not just individual output.\n- Make evaluation and cost controls first-class in both.\n- Graduate agent autonomy: triage, remediation, and vulnerability work as proving grounds before larger units of feature delivery (see the writing below).',
+        body: 'I led the technology and engineering foundation for AI across the company: customer-facing agents grounded in Quorum’s permissioned data, and an AI-enabled engineering system built around reusable context, skills, evaluation, and guardrails.\n\n- Grounded product AI in structured public-affairs data, with attention to permissions, evaluation, and customer trust.\n- Shipped Quincy to production, distinguishing delivered products from experiments.\n- Built the engineering side as a system — reusable context and skills, evaluation, and guardrails — so AI improves how engineering works, not just individual output.\n- Made evaluation and cost controls first-class in both.\n- Graduated agent autonomy: triage, remediation, and vulnerability work as proving grounds before larger units of feature delivery (see the writing below).',
       },
       {
         heading: 'The important choices',
@@ -175,7 +175,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'Results',
-        body: 'Quincy is in production, with a portfolio of agentic workflows released, piloted, or in beta. On the engineering side, an AI-enabled system — reusable context, skills, evaluation, and guardrails — is in daily use with broad adoption across teams. The product agents draw on Quorum’s structured, permissioned data and entity model; the engineering system draws on code repositories, planning artifacts, architecture context, telemetry, and reusable skills and standards. They share governance principles and some domain tools, but solve different problems on different foundations.',
+        body: 'Quincy reached production. On the engineering side, AI assistance became part of daily work across teams, supported by shared context, evaluation, and guardrails. The published customer case study and writing below describe that work.',
       },
       {
         heading: 'What shaped my leadership',

@@ -17,7 +17,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="border-b border-line">
         <Container className="py-20 sm:py-28">
-          <Eyebrow>Chief Technology Officer</Eyebrow>
+          <Eyebrow>{profile.role}</Eyebrow>
           <h1 className="mt-5 max-w-4xl font-serif text-display font-medium text-ink">
             {profile.headline}
           </h1>
@@ -35,7 +35,7 @@ export default function HomePage() {
           {/* Restrained proof line — grounds the claim without résumé metrics */}
           <div className="mt-12 max-w-2xl border-t border-line pt-6">
             <p className="text-xs font-semibold uppercase tracking-label text-ink-faint">
-              SparkPost · Quorum · Discovery Communications
+              Citian · Quorum · SparkPost · Discovery Communications
             </p>
             <p className="mt-2 text-sm text-ink-muted">
               High-scale SaaS · Global engineering · Applied AI · Post-acquisition integration
