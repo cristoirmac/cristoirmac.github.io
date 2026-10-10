@@ -30,7 +30,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         heading: 'Results',
-        body: 'SparkPost became a developer-focused, cloud-native SaaS platform running more than a billion messages a day at peak. The API-first bet made it credible with developers; the analytics bet made it credible on deliverability. The writing below is contemporaneous evidence of the choices, made while they were live rather than in hindsight.',
+        body: 'SparkPost became a developer-focused, cloud-native SaaS platform approaching $100M ARR at Rule-of-40 performance, running more than a billion messages a day at peak. The API-first bet made it credible with developers; the analytics bet made it credible on deliverability. The writing below is contemporaneous evidence of the choices, made while they were live rather than in hindsight.',
       },
       {
         heading: 'What shaped my leadership',

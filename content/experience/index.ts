@@ -75,7 +75,7 @@ export const experience: ExperienceChapter[] = [
       'Built and led an ~80-person Engineering, Data, DevOps, and SRE organization',
       'More than one billion messages per day at peak',
       'Event-driven data pipelines processing billions of events per day',
-      'Owned cloud infrastructure budgeting and cost controls',
+      'Owned a $6M+ AWS budget with disciplined cost controls',
       'SparkPost publicly reported delivering nearly 40% of the world’s commercial email',
       'Publicly named customers included The New York Times, Adobe, Booking.com, LinkedIn, Twitter, Pinterest, Zillow, Rakuten, and Comcast',
     ],
@@ -85,11 +85,11 @@ export const experience: ExperienceChapter[] = [
       'Ran engineering for a platform processing more than a billion messages a day at peak, where reliability, latency, deliverability, and incident response had direct customer and revenue consequences.',
       'Worked directly with enterprise customers, Sales, Customer Success, Deliverability, Product, and Security during incidents, technical evaluations, platform transitions, and high-stakes account situations.',
       'Reoriented the organization around continuous delivery, automated testing, production ownership, and a dedicated SRE practice with observability, incident response, and postmortems.',
-      'Owned the AWS budget, treating architecture, capacity, data-platform scale, and cloud cost as one economic system.',
+      'Owned a $6M+ AWS budget, treating architecture, capacity, data-platform scale, and cloud cost as one economic system.',
       'Integrated the Port25/PowerMTA and eDataSource acquisitions — teams, products, and technology — and led engineering through the MessageBird acquisition, protecting customer continuity and SLA performance.',
     ],
     outcomes: [
-      'Grew into a developer-focused, cloud-native SaaS platform running more than a billion messages a day at peak.',
+      'Grew into a developer-focused, cloud-native SaaS platform approaching $100M ARR at Rule-of-40 performance, running more than a billion messages a day at peak.',
       'Led engineering through a $180M strategic growth investment in January 2021 and, months later, the $600M acquisition by MessageBird — protecting customer continuity and SLA performance through the ownership transition.',
     ],
     relatedCaseStudies: [
