@@ -11,7 +11,7 @@ export default function SiteFooter() {
         <div>
           <p className="font-serif text-lg font-semibold text-ink">Chris McFadden</p>
           <p className="mt-2 max-w-sm text-sm leading-relaxed text-ink-muted">
-            {profile.role} — enterprise SaaS, applied AI, platform and reliability.
+            {profile.role} — enterprise SaaS and GovTech, applied AI, platforms and reliability.
           </p>
           <p className="mt-4 text-sm text-ink-faint">{profile.location}</p>
         </div>

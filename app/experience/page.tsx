@@ -7,7 +7,7 @@ import { getCaseStudy } from '@/lib/content';
 export const metadata: Metadata = {
   title: 'Experience',
   description:
-    'The executive career narrative of Chris McFadden — Quorum, SparkPost / Message Systems / MessageBird, Discovery Communications, and earlier technical foundation.',
+    'The executive career narrative of Chris McFadden — Citian, Quorum, SparkPost / Message Systems / MessageBird, Discovery Communications, and earlier technical foundation.',
 };
 
 function List({ label, items }: { label: string; items: string[] }) {

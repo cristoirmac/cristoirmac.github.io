@@ -10,21 +10,20 @@ export const SITE_URL = 'https://cristoirmac.github.io';
 
 export const profile = {
   name: 'Chris McFadden',
-  role: 'Chief Technology Officer',
+  role: 'Technology Executive',
   positioningLine:
-    'Applied AI in products and engineering · Enterprise SaaS · PE-backed software · Platform & reliability',
+    'Applied AI in products and engineering · Enterprise SaaS & GovTech · Platforms & reliability',
 
   location: 'Washington, DC area',
 
   // Home hero.
-  headline:
-    'Building the technology organization for the next stage of enterprise software growth.',
+  headline: 'Building technology organizations that deliver, scale, and adapt.',
   subhead:
-    'I build and lead engineering organizations for B2B SaaS companies navigating scale, acquisition integration, platform modernization, and applied AI — developing strong leaders, partnering across Product and the business, and improving reliability, delivery, and economics.',
+    'I build and lead globally distributed engineering organizations, scale SaaS platforms, and apply AI in customer products and software delivery. My work spans platform modernization, acquisition integration, and developing strong leaders — in partnership with Product, business leadership, and customers, with attention to reliability, delivery effectiveness, and engineering economics.',
 
   // One-paragraph intro (home "In brief").
   intro:
-    'Across more than 20 years at Discovery, SparkPost, and Quorum, I have built global engineering organizations, operated cloud platforms at billion-message scale, integrated acquired products and teams, and applied AI in both customer workflows and engineering. Those platforms served enterprise, government, and mission-driven customers where reliability, security, and compliance are business-critical. The common thread is building organizations that turn customer needs into reliable products — without losing the strengths that made them successful.',
+    'Across more than 20 years at Discovery, SparkPost, and Quorum, I have built global engineering organizations, operated cloud platforms at billion-message scale, integrated acquired products and teams, and applied AI in both customer workflows and engineering. Those platforms served enterprise, government, and mission-driven customers where reliability, security, and compliance are business-critical. I joined Citian as SVP Engineering in October 2026, bringing that experience to transportation technology and GovTech. The common thread is building organizations that turn customer needs into reliable products — without losing the strengths that made them successful.',
 
   // Home "Connect" invitation. Portfolio posture — comparing notes, not seeking a role.
   invitationShort:
@@ -81,8 +80,8 @@ export const profile = {
 
 export const seo = {
   siteName: 'Chris McFadden',
-  title: 'Chris McFadden — CTO & Engineering Executive',
+  title: 'Chris McFadden — Technology Executive',
   description:
-    'Chris McFadden is a CTO and engineering executive who builds technology organizations and leaders, partners with Product and customers, owns production, and invests in platforms, cloud, and applied AI — proven at SparkPost and Quorum.',
+    'Chris McFadden is a technology executive with experience across enterprise SaaS, GovTech, applied AI, platforms, and reliability. SVP Engineering at Citian; previously CTO at Quorum and engineering leader at SparkPost and Discovery.',
   ogImagePath: '/og.png',
 } as const;

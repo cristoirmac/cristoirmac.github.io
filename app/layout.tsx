@@ -29,10 +29,12 @@ export const metadata: Metadata = {
   applicationName: seo.siteName,
   authors: [{ name: profile.name }],
   keywords: [
+    'Technology Executive',
     'CTO',
     'SVP Engineering',
     'engineering leadership',
     'enterprise SaaS',
+    'GovTech',
     'applied AI',
     'platform transformation',
     'cloud-native SaaS',

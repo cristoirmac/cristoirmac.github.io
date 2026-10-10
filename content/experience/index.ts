@@ -7,18 +7,30 @@ import type { ExperienceChapter } from '../types';
 
 export const experience: ExperienceChapter[] = [
   {
+    slug: 'citian',
+    company: 'Citian',
+    companyDescription:
+      'A transportation technology company helping public agencies improve road safety, accessibility, and infrastructure decisions through data, analytics, and AI.',
+    titles: 'SVP Engineering',
+    period: 'October 2026 – Present',
+    context:
+      'I joined Citian in October 2026 to lead engineering, bringing my experience in SaaS platforms, applied AI, and engineering leadership to transportation technology.',
+    scale: [],
+    changes: [],
+    outcomes: [],
+  },
+  {
     slug: 'quorum',
     company: 'Quorum',
     companyUrl: 'https://www.quorum.us',
     companyDescription:
       'A public-affairs software platform (PE-backed B2B SaaS) serving government relations, advocacy, PAC, stakeholder engagement, and compliance teams.',
-    titles:
-      'Chief Technology Officer (2023–present); first VP, then SVP of Engineering (2021–2023)',
-    period: '2021 – Present',
+    titles: 'Chief Technology Officer (2023–2026); first VP, then SVP of Engineering (2021–2023)',
+    period: '2021 – 2026',
     context:
       'Quorum is a PE-backed B2B SaaS company that grew quickly and through acquisition. I joined as its first VP of Engineering, was promoted to SVP, and then to CTO. The mandate evolved from building the leadership and operating model for the next stage to running technology as an efficient platform business — integrating acquired products, maturing reliability and security, and turning applied AI into real value in both the product and the way engineering works.',
     scale: [
-      'Lead Engineering, Platform, Data, Reliability, Security, IT, and AI',
+      'Led Engineering, Platform, Data, Reliability, Security, IT, and AI',
       'Globally distributed organization across the U.S., Brazil, and Moldova',
       'Scaled engineering from ~25 to 100+ (2021–2023)',
       'Multi-product public-affairs SaaS platform on Kubernetes',
@@ -32,7 +44,7 @@ export const experience: ExperienceChapter[] = [
       'Partnered across Product and the executive team on shared priorities, R&D planning, portfolio choices, discovery, scope, and sequencing; worked with Sales and Customer Success on enterprise commitments, escalations, renewal risk, and strategic accounts — serving as a senior technology voice with strategic customers and executive sponsors where reliability, security, product behavior, or delivery confidence affected the relationship.',
       'Led a multi-year consolidation and customer-migration program across acquired PAC and grassroots products, balancing platform simplification with customer continuity.',
       'Strengthened production ownership and platform modernization — cloud operations, reliability, security, incident response, SLOs, observability, and a move to Kubernetes — with clearer escalation across Engineering, Support, and Customer Success.',
-      'Shipped Quincy to production and led a portfolio of agentic workflows — released, piloted, or in beta — across meeting preparation, CRM, policy communications, grassroots advocacy, and bill tracking, grounded in proprietary structured data with permission-aware retrieval, evaluation, and cost controls.',
+      'Shipped Quincy to production and led applied AI in customer workflows, with attention to permissions, evaluation, and cost controls.',
       'Built an AI-enabled engineering system — reusable context, skills, evaluation, guardrails, and automated triage — with broad adoption and contribution across the engineering organization.',
       'Owned security, privacy, compliance, and AI governance (SOC 2 Type II, PCI, GDPR/CCPA, NIST 800-171, vulnerability management, incident response), and improved R&D and infrastructure efficiency through platform consolidation, a distributed operating model, and cloud-cost discipline.',
     ],

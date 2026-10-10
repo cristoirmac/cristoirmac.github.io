@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og';
+import { profile, seo } from '@/data/profile';
 
-export const alt = 'Chris McFadden — CTO & Engineering Executive';
+export const alt = seo.title;
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -39,7 +40,7 @@ export default function OpengraphImage() {
         <div
           style={{ fontSize: 26, color: '#3a5a5c', letterSpacing: 2, textTransform: 'uppercase' }}
         >
-          Chief Technology Officer
+          {profile.role}
         </div>
       </div>
 
@@ -53,12 +54,12 @@ export default function OpengraphImage() {
             maxWidth: 980,
           }}
         >
-          Technology leadership for moments of scale and transformation.
+          {profile.headline}
         </div>
       </div>
 
       <div style={{ fontSize: 30, color: '#3a3a36' }}>
-        Chris McFadden · Enterprise SaaS · Applied AI · Platform &amp; Reliability
+        Chris McFadden · Enterprise SaaS &amp; GovTech · Applied AI · Platforms &amp; Reliability
       </div>
     </div>,
     size,

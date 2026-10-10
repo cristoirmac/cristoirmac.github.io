@@ -5,7 +5,7 @@ import { operatingModel } from '@/content/operating-model';
 export const metadata: Metadata = {
   title: 'Leadership & Operating Model',
   description:
-    'How Chris McFadden leads and creates value as a CTO: building leaders and organizations, partnering with Product and customers, owning production and reliability, managing R&D as an investment portfolio, and using platforms and applied AI to amplify strong teams.',
+    'How Chris McFadden leads and creates value as a technology executive: building leaders and organizations, partnering with Product and customers, owning production and reliability, managing R&D as an investment portfolio, and using platforms and applied AI to amplify strong teams.',
 };
 
 export default function OperatingModelPage() {
@@ -14,7 +14,7 @@ export default function OperatingModelPage() {
     <Container className="py-16 sm:py-20">
       <PageHeader
         eyebrow="Leadership & Operating Model"
-        title="How I lead and create value as a CTO."
+        title="How I lead and create value."
         dek={om.centralIdea}
       />
 
